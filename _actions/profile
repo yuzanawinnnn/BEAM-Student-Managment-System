@@ -1,0 +1,47 @@
+
+    
+   <!--===================== ERROR ALERT SECTION ======================-->
+   <!--if the uploaded file has issue, alert is shown ---->
+   <?php if(isset($_GET['error'])): ?>
+    <div class="alert alert-warning">Cannot upload file</div>
+   <?php endif ?>
+    
+   <!--if the profile.jpg exists in the folder, display the image -->
+   <?php if(file_exists('_actions/photos/profile.jpg')): ?>
+     <img class="img-thumbnail mb-3" src="_actions/photos/profile.jpg" alt="Profile Photo" width="200">
+   <?php endif ?>
+   <!--===================END OF ERROR ALERT SECTION ====================-->
+    
+   <!--========================IMAGE UPLOAD SECTION=======================-->
+   <form action="_actions/upload.php" method="post" enctype="multipart/form-data">
+     <div class="input-group mb-3">
+        <input type="file" name="photo" class="form-control">
+        <button class="btn btn-secondary">Upload</button>
+     </div>
+   </form>
+   <!--=====================END OF IMAGE UPLOAD SECTION ====================-->
+    
+   <!--========================DATA TABLE SECTION===========================-->
+     
+ 
+
+   <ul class="list-group">
+     <li class="list-group-item">
+        <b>Email:</b> john.doe@gmail.com
+     </li>
+     <li class="list-group-item">
+        <b>Phone:</b> (09) 243 867 645
+     </li>
+     <li class="list-group-item">
+        <b>Address:</b> No. 321, Main Street, West City
+     </li>
+   </ul>
+   <!--=====================END OF DATA TABLE SECTION=======================-->
+ 
+ <br>
+ <a href="_actions/logout.php">Logout</a>
+</div>
+
+</body>
+</html>
+-->
