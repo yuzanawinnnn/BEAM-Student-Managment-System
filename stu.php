@@ -1,0 +1,213 @@
+<?php
+include("vendor/autoload.php");
+use Libs\Database\MySQL;
+use Libs\Database\StudentsTable;
+use Helpers\Auths;
+use Helpers\Auth;
+
+$table = new StudentsTable(new MySQL());
+$all = $table->getAll();
+$auth = Auth::check();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT INFORMATION</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">      
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    
+<body>
+    <div class="container-fluid"> <!-- Outer DIV -->
+        <div class="row g-0">     <!-- Inner DIV -->
+            
+            <!---- nav is Nav bar with 2 cols size ---->
+            <nav class="col-2 pe-3 custom_nav"> 
+            <span class="custom_logo_div">
+                <div class="first"><img src="image/ONIELogoPNG.png" class="first_image"></div>
+                <div class="second"><img src="image/BEAMLogoPNG.png" class="sec_image"></div>
+            </span>
+            
+            <!--<h1 class="h4 py-3 text-center text-primary">
+                <i class="fas fa-ghost me-2"></i>
+                <span class="d-none d-lg-inline">GHOST ADMIN</span>
+            </h1>-->
+                
+            <!-- nav button div ---->
+            <div class="list-group text-center text-lg-start">
+                
+                
+                <!--======nav button list section =====-->
+                <a href="home.php" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-home"></i>
+                    <span class="d-none d-lg-inline">HOME PAGE</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action active menu_btn">
+                    <i class="fas fa-users"></i>
+                    <span class="d-none d-lg-inline">STUDENTS</span>
+                </a>
+                <a href="collectors.php" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-users"></i>
+                    <span class="d-none d-lg-inline">COLLECTORS</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-chart-line"></i>
+                    <span class="d-none d-lg-inline">STATISTICS</span>
+                </a>
+                 <a href="#" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-flag"></i>
+                    <span class="d-none d-lg-inline">REPORTS</span>
+                </a>
+                <a href="admin" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-flag"></i>
+                    <span class="d-none d-lg-inline">ROLES</span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action menu_btn">
+                    <i class="fas fa-flag"></i>
+                    <span class="d-none d-lg-inline">SETTINGS</span>
+                </a>
+                
+            </div>
+            </nav>
+            
+            <!---- Main section with 10 cols size ---->
+            <main class="col-10 custom_main">
+            <!--==== Horizontal nav bar on top ===---->
+            <nav class="navbar navbar-expand-lg navbar-light custom_top_nav">
+                <!--- 1st Div To set the icons on the right -->
+                <div class="flex-fill">
+                              
+                </div>
+                <!-- 2nd Div with icons -->
+                <div class="navbar nav">
+                    <!--- li One --->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                        <!---=== User and Logout Dropdown ==-->
+                        <ul class="dropdown-menu">
+                        <li>
+                            <a href="#" class="dropdown-item">User Profile</a>
+                        </li>
+                        <li>
+                            <a href="_actions/logout.php" class="dropdown-item text-danger">Logout</a>
+                        </li>
+                        </ul>
+                    </li>
+                    <!--- li Two Setting Icon--->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                        <i class="fas fa-cog"></i>
+                        </a>
+                    </li>
+                
+                </div>
+            </nav>
+                
+            <!--=== Main Middle Section Info ===--->
+            <!--=================================-->
+            <div class="container-fluid mt-3 p-4">
+                
+    <div class="container">
+    <div class="form-row">
+      <div class="form-group col-md-5 search_div">
+        <form>
+            <div class="input-group ">
+               <input type="text" class="form-control">
+               <button class="btn btn-secondary">Search</button>
+            </div>
+        </form>
+     </div>
+      <div style="float: right; display: flex; padding-bottom: 50px">
+                    <div class="add_btn_section">
+                        <a href="addstudents.php" class="btn btn-outline-primary" style="float:left; margin-left:20px; margin-right:10px">Add New Students</a>
+                        </div>
+                    <div class="modify_btn_section"> 
+                        <a href="register.php" class="btn btn-warning" style="float:left;" > Modify</a>
+                    </div>              
+               
+    </div>
+    </div>
+    
+
+
+    
+      
+    <table class="table table-striped table-bordered">
+        <tr><!--===== Table Header Row ====-->
+           <th>ID</th>
+           <th>Name</th>
+           <th>Age</th>
+           <th>Gender</th>
+           <th>Phone</th>
+           <th>Actions</th>
+        </tr><!--==== End of Table Header Row =====-->
+        
+        <?php foreach ($all as $student): ?>
+        
+        <tr><!--====Table Data Row =====-->
+           <td><?= $student->ID ?></td>
+           <td><?= $student->Name ?></td>
+           <td><?= $student->Age ?></td>
+           <td><?= $student->Gender ?></td>
+           <td><?= $student->phone ?></td>
+           <td><!--======= Role cell =======-->
+               <?php if($user->value === '1'): ?>
+                  <span class="badge bg-secondary">
+                      <?= $user->role ?>
+                  </span>
+               <?php elseif($user->value === '2'): ?>
+                  <span class="badge bg-primary">
+                      <?= $user->role ?>
+                  </span>
+               <?php else: ?>
+                  <span class="badge bg-success">
+                      <?= $user->role ?>
+                  </span>
+               <?php endif ?>
+           </td>
+            
+           <td><!--===== Function buttons cell =====-->
+              <!--=====check if the user is admin or manager =====-->
+              <?php if($auth->value > 1): ?> 
+                <div class="btn-group dropdown">
+                   <a href="#" class="btn btn-sm btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown">Change Role</a>
+                   <div class="dropdown-menu dropdown-menu-dark">
+                      <a href="_actions/role.php?id=<?= $user->id ?>&role=1" class="dropdown-item">User</a>
+                      <a href="_actions/role.php?id=<?= $user->id ?>&role=2" class="dropdown-item">Manager</a>
+                      <a href="_actions/role.php?id=<?= $user->id ?>&role=3" class="dropdown-item">Admin</a>
+                   </div>
+                  
+              
+                <?php if($user->id !== $auth->id): ?>
+                    <a href="_actions/delete.php?id=<?= $user->id ?>" class="btn btn-sm btn-outline-danger" onClick="return confirm('Are you sure?')">Delete</a>
+                <?php endif ?>
+                
+              </div>
+               <?php else: ?>
+                   ###
+               <?php endif ?>
+            </td><!--===== End of Function buttons row =====-->
+            
+        </tr><!--==== End of Table Data Row ====-->
+        
+        <?php endforeach ?>
+    </table>
+ </div>
+                
+            </div><!-- End of main Middle section -->
+                
+                
+            </main>
+            
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min"></script>
+<footer class="text-center py-4 text-muted">&copy; Copyright 2020</footer>
+</body>
+</html>
