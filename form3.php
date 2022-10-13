@@ -189,7 +189,7 @@ form .buttons button , .backBtn{
         width: 100%;
     }
 }
-        body{ background: rgb(200,243,244);
+body{ background: rgb(200,243,244);
 background: linear-gradient(0deg, rgba(200,243,244,1) 25%, rgba(98,191,177,1) 100%);}
 
 
@@ -198,9 +198,12 @@ table {
 }
 
 
-td, th {
-  border: 1px solid;
+table, td, th, tr {
+  border: 1px solid grey;
 }
+        table input{
+            border:none;
+        }
     </style>
 </head>
 <body>
@@ -897,13 +900,14 @@ td, th {
                   </div>
                     <br>
                 <!------------------------------------End of Info of Guardian ----------------------------------------->
+                <!------------------------------------Table of sibling ------------------------------------------------>
                     <h5 style="font-size:13px; color:grey;">1.4 Number of Siblings</h5>
                     <div class="fields">
                         
                         <form>
-  <table style="width:1000px; font-family:'Cambria', sans-serif; font-size:13px; border: 1px solid grey;">
+  <table style="width:1000px; font-family:'Cambria', sans-serif; font-size:13px;">
     <thead>
-      <tr>
+      <tr style="">
         <th style="width:15px; height:20px;">
           No
         </th>
@@ -935,7 +939,7 @@ td, th {
     </thead>
     <tbody>
       <tr>
-        <td style="width:10px;">
+        <td>
            1
         </td>
         <td>
@@ -961,7 +965,7 @@ td, th {
       </tr>
         
       <tr>
-        <td style="width:10px;">
+        <td>
            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
         </td>
         <td>
@@ -986,7 +990,7 @@ td, th {
           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
       </tr>
         
-      <tr style="width:10px;">
+      <tr>
         <td>
            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
         </td>
