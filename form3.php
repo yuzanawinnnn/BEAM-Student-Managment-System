@@ -191,19 +191,22 @@ form .buttons button , .backBtn{
 }
 body{ background: rgb(200,243,244);
 background: linear-gradient(0deg, rgba(200,243,244,1) 25%, rgba(98,191,177,1) 100%);}
-
-
 table {
  table-layout: fixed;
 }
-
-
 table, td, th, tr {
   border: 1px solid grey;
 }
-        table input{
-            border:none;
+        table{
+          
+   
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
         }
+ 
     </style>
 </head>
 <body>
@@ -896,130 +899,229 @@ table, td, th, tr {
                             <label>ความเกี่ยวข้อง </label>
                             <input type="text" placeholder="ความเกี่ยวข้อง " class="form__72temp" name="72temp" required>
                         </div>
-
                   </div>
                     <br>
                 <!------------------------------------End of Info of Guardian ----------------------------------------->
                 <!------------------------------------Table of sibling ------------------------------------------------>
-                    <h5 style="font-size:13px; color:grey;">1.4 Number of Siblings</h5>
+                    <h5 style="font-size:13px; color:grey;">1.4 Number of Siblings (Optional)</h5>
+                    <h5 style="font-size:13px; color:grey;">Sibling I</h5>
+                    
                     <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Sibling Name" class="form__73sibname" name="73sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Gender</label>
+                            <select class="form__74gender" name="74Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                <option>Prefers not to say</option>
+                            </select>
+                        </div>
                         
-                        <form>
-  <table style="width:1000px; font-family:'Cambria', sans-serif; font-size:13px;">
-    <thead>
-      <tr style="">
-        <th style="width:15px; height:20px;">
-          No
-        </th>
-        <th>
-          Name
-        </th>
-        <th>
-          Sex
-        </th>
-          <th>
-          Age
-        </th>
-        <th>
-          Occupation
-        </th>
-        <th>
-          Education (mention only grade/standard)
-        </th>
-          <th>
-          Address (mention city and state only)
-        </th>
-        <th>
-          Remark
-        </th>
-        <th>
-          Location
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-           1
-        </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input  class="tab_input" type="text" style="" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment"> </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-      </tr>
-        
-      <tr>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment"> </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-      </tr>
-        
-      <tr>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-           <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">
-        </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment"> </td>
-           <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-            <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-        <td>
-          <label class="visually-hidden" for="dhl_comment">Comment</label><input type="text" id="dhl_comment">   </td>
-      </tr>
-    </tbody>
-  </table>
-</form>
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Age" min="1" max="100" name="75age" class="form__75age">
+                        </div>
                            
-                         
+                        <div class="input-field">
+                            <label>อาชีพ/Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__76occupation" name="76Occupation">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Contact" class="form__77address" name="77address" >
+                        </div>
+                
+                        <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__78remark" name="78Remark" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Location</label>
+                            <input type="text" placeholder="Location" class="form__79loc" name="79loc" required>
+                        </div>
+                   
+                        </div>
+                      
+                        
+                    <h5 style="font-size:13px; color:grey;">Sibling II</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Sibling Name" class="form__80sibname" name="80sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Gender</label>
+                            <select class="form__81gender" name="81Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                <option>Prefers not to say</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Age" min="1" max="100" name="82age" class="form__82age">
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>อาชีพ/Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__83occupation" name="83Occupation">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Contact" class="form__84address" name="84address" >
+                        </div>
+                
+                        <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__85remark" name="85Remark" >
+                        </div>
+                        <div class="input-field">
+                            <label>Location</label>
+                            <input type="text" placeholder="Location" class="form__86loc" name="86loc" >
+                        </div>
+                       
+                    </div>
+               <h5 style="font-size:13px; color:grey;">Sibling III</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Sibling Name" class="form__87sibname" name="87sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Gender</label>
+                            <select class="form__88gender" name="88Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                <option>Prefers not to say</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Age" min="1" max="100" name="89age" class="form__89age">
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>อาชีพ/Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__90occupation" name="90Occupation">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Contact" class="form__91address" name="91address" >
+                        </div>
+                
+                        <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__92remark" name="92Remark" >
+                        </div>
+                        <div class="input-field">
+                            <label>Location</label>
+                            <input type="text" placeholder="Location" class="form__93loc" name="93loc" >
+                        </div>
+                       
+                    </div>
+                <h5 style="font-size:13px; color:grey;">Sibling IV</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Sibling Name" class="form__94sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Gender</label>
+                            <select class="form__95gender" name="95Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                <option>Prefers not to say</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Age" min="1" max="100" name="96age" class="form__96age">
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>อาชีพ/Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__97occupation" name="97Occupation">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Contact" class="form__98address" name="98address" >
+                        </div>
+                
+                        <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__99remark" name="99Remark" >
+                        </div>
+                        <div class="input-field">
+                            <label>Location</label>
+                            <input type="text" placeholder="Location" class="form__100loc" name="100loc" >
+                        </div>
+                       
+                    </div>
+                    
+                                    <h5 style="font-size:13px; color:grey;">Sibling V</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Gender</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                                <option>Prefers not to say</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Age</label>
+                            <input type="number" placeholder="Age" min="1" max="100" name="103age" class="form__103age">
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>อาชีพ/Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__104occupation" name="104Occupation">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Contact" class="form__105address" name="105address" >
+                        </div>
+                
+                        <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__106remark" name="106Remark" >
+                        </div>
+                        <div class="input-field">
+                            <label>Location</label>
+                            <input type="text" placeholder="Location" class="form__107loc" name="107loc" >
+                        </div>
+                       
                     </div>
                
                   </div> 
