@@ -1125,20 +1125,1005 @@ table, td, th, tr {
                     </div>
                
                   </div> 
+                <!-- ======================================================================================= -->
+                <!---------------------------- End of Sibling Table Information ----------------------------->
+                <!--------------------------------Table of Education ---------------------------------------->
+                <br>   
+                <h5 style="font-size:13px; color:grey;">1.5 Education Information (of student)</h5>
+                    <h5 style="font-size:13px; color:grey;">Institution I</h5>
+                    
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Name of Institution</label>
+                            <input type="text" placeholder="Name of Institution" class="form__108institute" name="108institute">
+                      </div>
+                           
+                      <div class="input-field">
+                            <label>Level/Standard/Grade</label>
+                            <input type="text" placeholder="Level/Standard/Grade" class="form__109level" name="109level">
+                      </div>
+                        
+                      <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="number" placeholder="Year of Completion " class="form__110year" name="110year" >
+                      </div>
+                
+                      <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__111remark" name="111Remark" >
+                      </div>
+                       
+                    </div>
+                <h5 style="font-size:13px; color:grey;">Institution II</h5>
+                <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Name of Institution</label>
+                            <input type="text" placeholder="Name of Institution" class="form__112institute" name="108institute">
+                      </div>
+                           
+                      <div class="input-field">
+                            <label>Level/Standard/Grade</label>
+                            <input type="text" placeholder="Level/Standard/Grade" class="form__113level" name="109level">
+                      </div>
+                        
+                      <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="number" placeholder="Year of Completion " class="form__114year" name="110year" >
+                      </div>
+                
+                      <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__111remark" name="115Remark" >
+                      </div>
+                       
+                    </div>
+                <h5 style="font-size:13px; color:grey;">Institution III</h5>
+                <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Name of Institution</label>
+                            <input type="text" placeholder="Name of Institution" class="form__116institute" name="116institute">
+                      </div>
+                           
+                      <div class="input-field">
+                            <label>Level/Standard/Grade</label>
+                            <input type="text" placeholder="Level/Standard/Grade" class="form__117level" name="117level">
+                      </div>
+                        
+                      <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="number" placeholder="Year of Completion " class="form__118year" name="118year" >
+                      </div>
+                
+                      <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__119remark" name="119Remark" >
+                      </div>
+                       
+                    </div>
+                      
+                <h5 style="font-size:13px; color:grey;">Institution IV</h5>
+                <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Name of Institution</label>
+                            <input type="text" placeholder="Name of Institution" class="form__120institute" name="120institute">
+                      </div>
+                           
+                      <div class="input-field">
+                            <label>Level/Standard/Grade</label>
+                            <input type="text" placeholder="Level/Standard/Grade" class="form__121level" name="121level">
+                      </div>
+                        
+                      <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="number" placeholder="Year of Completion " class="form__122year" name="122year" >
+                      </div>
+                
+                      <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__123remark" name="123Remark" >
+                      </div>
+                       
+                    </div>
+                
+                <h5 style="font-size:13px; color:grey;">Institution V</h5>
+                <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Name of Institution</label>
+                            <input type="text" placeholder="Name of Institution" class="form__124institute" name="124institute">
+                      </div>
+                           
+                      <div class="input-field">
+                            <label>Level/Standard/Grade</label>
+                            <input type="text" placeholder="Level/Standard/Grade" class="form__125level" name="125level">
+                      </div>
+                        
+                      <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="number" placeholder="Year of Completion " class="form__126year" name="126year" >
+                      </div>
+                
+                      <div class="input-field">
+                            <label>Remark</label>
+                            <input type="text" placeholder="Contact" class="form__127remark" name="127Remark" >
+                      </div>
+                       
+                    </div>
+                    
+               
+               
+                <!-- ===================================================================================== -->
+                <!---------------------------- End of Table Institution Information ------------------------->
+                <br>
                 
                 
-                <!------------------------------------------------------------------------------------------->
+                <!---------------------------------Table of xxxxxx ------------------------------------------>
+                <br>   
+                <h5 style="font-size:13px; color:grey;">1.6 โอกาสการได้รับการสนับสนุนเพื่อศึกษาต่อ (ถ้ามี) </h5>
+             
+                    
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>หน่วยงาน/องค์กร / Department or organization: </label>
+                            <input type="text" placeholder="Department or organization" class="form__128dept" name="128dept">
+                      </div>
+                         
+                      <div class="input-field">
+                            <label>ปีที่ได้รับการสนับสนุน / Year of supporting: </label>
+                            <input type="number" placeholder="Year of supporting" class="form__129year" name="129year" >
+                      </div>
+                        
+                         <div class="input-field">
+                            <label>ประเภทของการสนับสนุน/ Type of supporting</label>
+                            <input type="text" placeholder="Type of supporting" class="form__130supporttype" name="130supporttype">
+                      </div>
+                
+                      <div class="input-field">
+                            <label>จำนวนสมาชิกในครอบครัวที่ได้รับการสนับสนุน / Number of family who got supported</label>
+                            <input type="text" placeholder="Number of family who got supported" class="form__131fam" name="131fam" >
+                      </div>
+                    <div class="input-field">
+                            <label>แรงบันดาลใจในการอยากศึกษาต่อ /Aspiration for continue education </label>
+                            <input type="text" placeholder="Aspiration for continue education" class="form__132asp" name="132asp" >
+                    </div>
+                    
+                    <!----- HIDDEN DIV -------->
+                        <div class="input-field">
+                            <label style="color:white"></label>
+                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
+                        </div>  
+                    <!----- HIDDEN DIV --------> 
+                       
+                    </div>       
+               
+                <!-- ======================================================================================= -->
+                <!-------------------------------- End of Table Institution Information ------------------------------>
+                <br>
+                <br>
+                <!----------------------------------Information in Thailand --------------------------------->
+                <!--=======================================================================================-->
+                <div class="details personal">  
+                    <h3 style="font-size:20px; color:grey;">Information in Thailand</h3>
+                     <h5 style="font-size:13px; color:grey;">2.1ข้อมูลการเข้าไทยตั้งแต่ครั้งแรก/Information at first arrive to Thailand (ตอบตามความสมัครใจ)</h5>
+                       <div class="fields">
+                          
+                         <div class="input-field">
+                            <label>เข้ามาในประเทศไทยครั้งแรกเมื่อไหร่/When was the first time of arriving to Thailand </label>
+                            <input type="text" placeholder="first time in Thailand" class="form__133arrival" name="133arrival" required>
+                         </div>
+                        <div class="input-field">
+                            <label>ช่องทางการเดินทางเข้าประเทศไทย/Port of arrival</label>
+                            <input type="text" placeholder="Port of Arrival" name="form_134PortArr" class="134PortArr" required>
+                        </div>
+                           
+                         <div class="input-field">
+                            <label>คุณอาศัยอยู่กับใคร/Who do you travel with </label>
+                            <input type="text" placeholder="Person you travelled with" class="form__135PortArr" name="135PortArr" required>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>ที่อยู่ (ระบุอำเภอและจังหวัด)/Address (District and Province)</label>
+                            <input type="text" placeholder="Address" class="form__136Address" name="136Address" required>
+                           </div>
+                         
+                    </div>
+                    
+                  </div> 
+                 
+                    <h5 style="font-size:13px; color:grey;">2.2 ข้อมูลเอกสารประจำตัวที่ออกโดยรัฐบาลไทย/  Information in the identity card or passport provided by government</h5>
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Name" class="form__137name" name="137Name" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Nickname</label>
+                            <input type="text" placeholder="Nickname" class="form__138nickname" name="138Nickame" required>
+                         </div>
+                        <div class="input-field">
+                            <label>วนัเกิด/Date of Birth</label>
+                            <input type="date" placeholder="Birth date" class="form__139dob" name="139DOB" required>
+                        </div>        
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__140occpation" name="140occupation" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Workplace (District)</label>
+                            <input type="text" placeholder="Workplace(District)" class="form__141workplace" name="141workplace" required>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Work Permit (if any)</label>
+                            <input type="text" placeholder="Work Permit" class="form__142workpermit" name="142workpermit" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Number of Work Permit</label>
+                            <input type="number" placeholder="Number of Work Permit" class="form__143permitno" name="143permitno" required>
+                        </div> 
+                        <div class="input-field">
+                            <label>Number of employee's Social Welfare Reg: card (if any)</label>
+                            <input type="text" placeholder="Social Welfare Reg: card No." class="form__143SWRcard" name="143SWRcard" required>
+                        </div>
+                           <div class="input-field">
+                            <label>ศาสนา/Religion</label>
+                            <select class="form__144religion" name="144Religion" required>
+                                <option disabled selected>Select Religion</option>               
+                                <option>Buddhist</option> 
+                                <option>Christian</option>  
+                                <option>Muslim</option>  
+                                <option>Brahmin-Hundu</option>  
+                                <option>Sikh</option>
+                            </select>
+                        </div>
+                   
+                        <div class="input-field">
+                            <label>สัญชาติ/Nationality</label>
+                            <select class="form__145nationality" name="145Nationality" required>
+                                <option disabled selected>Select Nationality</option>
+                                <option>မြန်မာ(พม่า)</option>  
+                                <option>ထိုင်း(ไทย)</option>    
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>เช6อชาติ/Ethnicity</label>
+                            <select class="form__146ethnicity" name="146Ethnicity" required>
+                                <option disabled selected>Select Ethnicity</option>
+                                <option>ကချင် (คะฉิ่น)</option>  
+                                <option>ကယား (คายาห์)</option>  
+                                <option>ကရင် (กะเหรี่ยง)</option>  
+                                <option>ချင်း (ฉิ่น)</option>  
+                                <option>မွန် (มอญ)</option> 
+                                <option>ဗမာ (พม่า)</option>  
+                                <option>ရခိုင် (ยะข่าย)</option>  
+                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
+                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
+                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
+                                <option>နေပါလီ (เนปาล)</option>  
+                                <option>ပအို့ဝ် (ปะโอ)</option>  
+                                <option>အင်းသား (อิงตา)</option>  
+                                <option>Other:</option> 
+                            </select>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Father</label>
+                            <input type="text" placeholder="Father's Name" class="form__147father" name="147father" required>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Mother</label>
+                            <input type="text" placeholder="Mother's Name" class="form__148mother" name="148mother" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Address in passport or identity card</label>
+                            <input type="text" placeholder="Addressin passport or identity card" class="form__149address" name="149address" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Current Address</label>
+                            <input type="text" placeholder="Current Address" class="form__150curaddress" name="150curaddress" required>
+                        </div>
+                        
+                        <!----- HIDDEN DIV -------->
+                        <div class="input-field">
+                            <label style="color:white"></label>
+                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
+                        </div>  
+                        <!----- HIDDEN DIV --------> 
+                           
+                         
+                  </div>
+                
+                <h5 style="font-size:13px; color:grey;">2.2 ข้อมูลเอกสารประจำตัวที่ออกโดยรัฐบาลไทย/  Information in the identity card or passport provided by government</h5>
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>ชือ/Name</label>
+                            <input type="text" placeholder="Name" class="form__137name" name="137Name" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Nickname</label>
+                            <input type="text" placeholder="Nickname" class="form__138nickname" name="138Nickame" required>
+                         </div>
+                        <div class="input-field">
+                            <label>วนัเกิด/Date of Birth</label>
+                            <input type="date" placeholder="Birth date" class="form__139dob" name="139DOB" required>
+                        </div>        
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__140occpation" name="140occupation" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Workplace (District)</label>
+                            <input type="text" placeholder="Workplace(District)" class="form__141workplace" name="141workplace" required>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Work Permit (if any)</label>
+                            <input type="text" placeholder="Work Permit" class="form__142workpermit" name="142workpermit" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Number of Work Permit</label>
+                            <input type="number" placeholder="Number of Work Permit" class="form__143permitno" name="143permitno" required>
+                        </div> 
+                        <div class="input-field">
+                            <label>Number of employee's Social Welfare Reg: card (if any)</label>
+                            <input type="text" placeholder="Social Welfare Reg: card No." class="form__143SWRcard" name="143SWRcard" required>
+                        </div>
+                           <div class="input-field">
+                            <label>ศาสนา/Religion</label>
+                            <select class="form__144religion" name="144Religion" required>
+                                <option disabled selected>Select Religion</option>               
+                                <option>Buddhist</option> 
+                                <option>Christian</option>  
+                                <option>Muslim</option>  
+                                <option>Brahmin-Hundu</option>  
+                                <option>Sikh</option>
+                            </select>
+                        </div>
+                   
+                        <div class="input-field">
+                            <label>สัญชาติ/Nationality</label>
+                            <select class="form__145nationality" name="145Nationality" required>
+                                <option disabled selected>Select Nationality</option>
+                                <option>မြန်မာ(พม่า)</option>  
+                                <option>ထိုင်း(ไทย)</option>    
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>เช6อชาติ/Ethnicity</label>
+                            <select class="form__146ethnicity" name="146Ethnicity" required>
+                                <option disabled selected>Select Ethnicity</option>
+                                <option>ကချင် (คะฉิ่น)</option>  
+                                <option>ကယား (คายาห์)</option>  
+                                <option>ကရင် (กะเหรี่ยง)</option>  
+                                <option>ချင်း (ฉิ่น)</option>  
+                                <option>မွန် (มอญ)</option> 
+                                <option>ဗမာ (พม่า)</option>  
+                                <option>ရခိုင် (ยะข่าย)</option>  
+                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
+                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
+                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
+                                <option>နေပါလီ (เนปาล)</option>  
+                                <option>ပအို့ဝ် (ปะโอ)</option>  
+                                <option>အင်းသား (อิงตา)</option>  
+                                <option>Other:</option> 
+                            </select>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Father</label>
+                            <input type="text" placeholder="Father's Name" class="form__147father" name="147father" required>
+                        </div>
+                           
+                        <div class="input-field">
+                            <label>Mother</label>
+                            <input type="text" placeholder="Mother's Name" class="form__148mother" name="148mother" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Address in passport or identity card</label>
+                            <input type="text" placeholder="Addressin passport or identity card" class="form__149address" name="149address" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Current Address</label>
+                            <input type="text" placeholder="Current Address" class="form__150curaddress" name="150curaddress" required>
+                        </div>
+                        
+                        <!----- HIDDEN DIV -------->
+                        <div class="input-field">
+                            <label></label>
+                            <input type="text" hidden>
+                        </div>  
+                        <!----- HIDDEN DIV --------> 
+                           
+                         
+                  </div>
+                <h5 style="font-size:13px; color:grey;">2.3 History of migration</h5>
+                <h5 style="font-size:10px; color:grey;">Country I </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Country" class="form__151country" name="151country" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Province" class="form__152province" name="152province" required>
+                         </div>
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__153district" name="153district" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="154subdistict" class="form__153subdistrict" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>year</label>
+                            <input type="text" placeholder="Year" class="form__154year" name="154year" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Reason</label>
+                            <input type="text" placeholder="Reason" class="form__155reason" name="155reason" required>
+                           </div>  
+                  </div>
+                     <h5 style="font-size:10px; color:grey;">Country II </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Country" class="form__156country" name="156country" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Province" class="form__157province" name="157province" required>
+                         </div>
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__158district" name="158district" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="159subdistict" class="form__159subdistrict" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>year</label>
+                            <input type="text" placeholder="Year" class="form__160year" name="160year" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Reason</label>
+                            <input type="text" placeholder="Reason" class="form__161reason" name="161reason" required>
+                           </div>  
+                  </div>
+                     <h5 style="font-size:10px; color:grey;">Country III </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Country" class="form__162country" name="162country" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Province" class="form__163province" name="163province" required>
+                         </div>
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__164district" name="164district" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="165subdistict" class="form__165subdistrict" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>year</label>
+                            <input type="text" placeholder="Year" class="form__166year" name="166year" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Reason</label>
+                            <input type="text" placeholder="Reason" class="form__167reason" name="167reason" required>
+                           </div>  
+                  </div>
+                     <h5 style="font-size:10px; color:grey;">Country IV </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Country" class="form__168country" name="168country" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Province" class="form__169province" name="169province" required>
+                         </div>
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__170district" name="170district" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="171subdistict" class="form__171subdistrict" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>year</label>
+                            <input type="text" placeholder="Year" class="form__172year" name="172year" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Reason</label>
+                            <input type="text" placeholder="Reason" class="form__173reason" name="173reason" required>
+                           </div>  
+                  </div>
+                
+                <h5 style="font-size:13px; color:grey;">2.4 Working Experience</h5>
+                <h5 style="font-size:10px; color:grey;"> Work I </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__174country" name="174occupation" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Workplace</label>
+                            <input type="text" placeholder="Workplace" class="form__175workplace" name="175workplace" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__176year" name="176year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="177sub_district" class="form__177sub_district" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__178District" name="178District" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Reason" class="form__179province" name="179province" required>
+                        </div>  
+                     </div>
+                
+                     <h5 style="font-size:10px; color:grey;"> Work II </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__180country" name="180occupation" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Workplace</label>
+                            <input type="text" placeholder="Workplace" class="form__181workplace" name="181workplace" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__182year" name="182year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="183sub_district" class="form__183sub_district" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__184District" name="184District" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Reason" class="form__185province" name="185province" required>
+                        </div>  
+                     </div>
+                    <h5 style="font-size:10px; color:grey;"> Work III </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__186country" name="186occupation" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Workplace</label>
+                            <input type="text" placeholder="Workplace" class="form__187workplace" name="187workplace" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__188year" name="188year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="189sub_district" class="form__189sub_district" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__190District" name="190District" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Reason" class="form__191province" name="191province" required>
+                        </div>  
+                     </div>
+                <h5 style="font-size:10px; color:grey;"> Work IV </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__192country" name="192occupation" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Workplace</label>
+                            <input type="text" placeholder="Workplace" class="form__193workplace" name="193workplace" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__194year" name="194year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="195sub_district" class="form__195sub_district" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__196District" name="196District" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Reason" class="form__197province" name="197province" required>
+                        </div>  
+                     </div>
+                <h5 style="font-size:10px; color:grey;"> Work V </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Occupation" class="form__198country" name="198occupation" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Workplace</label>
+                            <input type="text" placeholder="Workplace" class="form__199workplace" name="199workplace" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__200year" name="200year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Sub-district</label>
+                            <input type="text" placeholder="Sub-district" name="201sub_district" class="form__201sub_district" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="District" class="form__202District" name="202District" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Province</label>
+                            <input type="text" placeholder="Reason" class="form__203province" name="203province" required>
+                        </div>  
+                     </div>
+                <br>
+                <h5 style="font-size:13px; color:grey;">2.5 Studied places of migration</h5>
+                <h5 style="font-size:10px; color:grey;">Education I </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Name of Education</label>
+                            <input type="text" placeholder="Name of Education" class="form__204edu" name="204edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Level</label>
+                            <input type="text" placeholder="Level" class="form__205level" name="205Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__206year" name="206Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="text" placeholder="Year of Completion" name="207Year_completed" class="form__207year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Place (Name of School or Learning Center)</label>
+                            <input type="text" placeholder="Place" class="form__208place" name="208Place" required>
+                        </div>
+                            
+                  </div>
+                <h5 style="font-size:10px; color:grey;">Education II </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Name of Education</label>
+                            <input type="text" placeholder="Name of Education" class="form__209edu" name="209edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Level</label>
+                            <input type="text" placeholder="Level" class="form__210level" name="210Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__211year" name="211Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="text" placeholder="Year of Completion" name="212Year_completed" class="form__212year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Place (Name of School or Learning Center)</label>
+                            <input type="text" placeholder="Place" class="form__213place" name="213Place" required>
+                        </div>
+                            
+                  </div>
+                <h5 style="font-size:10px; color:grey;">Education III </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Name of Education</label>
+                            <input type="text" placeholder="Name of Education" class="form__214edu" name="214edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Level</label>
+                            <input type="text" placeholder="Level" class="form__215level" name="215Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__216year" name="216Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="text" placeholder="Year of Completion" name="217Year_completed" class="form__217year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Place (Name of School or Learning Center)</label>
+                            <input type="text" placeholder="Place" class="form__218place" name="218Place" required>
+                        </div>
+                            
+                  </div>
+                <h5 style="font-size:10px; color:grey;">Education IV </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Name of Education</label>
+                            <input type="text" placeholder="Name of Education" class="form__219edu" name="219edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Level</label>
+                            <input type="text" placeholder="Level" class="form__220level" name="220Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__221year" name="221Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year of Completion</label> 
+                            <input type="text" placeholder="Year of Completion" name="222Year_completed" class="form__222year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Place (Name of School or Learning Center)</label>
+                            <input type="text" placeholder="Place" class="form__223place" name="223Place" required>
+                        </div>
+                            
+                  </div>
+                <h5 style="font-size:10px; color:grey;">Education V </h5>
+                
+                <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Name of Education</label>
+                            <input type="text" placeholder="Name of Education" class="form__224edu" name="224edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Level</label>
+                            <input type="text" placeholder="Level" class="form__225level" name="225Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year" class="form__226year" name="226Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year of Completion</label>
+                            <input type="text" placeholder="Year of Completion" name="227Year_completed" class="form__227year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Place (Name of School or Learning Center)</label>
+                            <input type="text" placeholder="Place" class="form__228place" name="228Place" required>
+                        </div>
+                            
+                  </div>
+                <br>
+                <h5 style="font-size:13px; color:grey;">2.6 Training Experience</h5>
+                <h5 style="font-size:10px; color:grey;">Topic I </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Topic</label>
+                            <input type="text" placeholder="Name of Education" class="form__229edu" name="229edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Organizaiton</label>
+                            <input type="text" placeholder="Level" class="form__230level" name="230Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Place</label>
+                            <input type="text" placeholder="Year" class="form__231year" name="231Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year of Completion" name="232Year_completed" class="form__232year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Certificate(if provided)</label>
+                            <input type="text" placeholder="Place" class="form__233place" name="233Place" required>
+                        </div>
+                            
+                  </div>
+                
+                <h5 style="font-size:10px; color:grey;">Topic II </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Topic</label>
+                            <input type="text" placeholder="Name of Education" class="form__234edu" name="234edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Organizaiton</label>
+                            <input type="text" placeholder="Level" class="form__235level" name="235Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Place</label>
+                            <input type="text" placeholder="Year" class="form__236year" name="236Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year of Completion" name="237Year_completed" class="form__237year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Certificate(if provided)</label>
+                            <input type="text" placeholder="Place" class="form__238place" name="238Place" required>
+                        </div>
+                            
+                  </div>
+                <h5 style="font-size:10px; color:grey;">Topic III </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Topic</label>
+                            <input type="text" placeholder="Name of Education" class="form__239edu" name="239edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Organizaiton</label>
+                            <input type="text" placeholder="Level" class="form__240level" name="240Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Place</label>
+                            <input type="text" placeholder="Year" class="form__241year" name="241Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year of Completion" name="242Year_completed" class="form__242year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Certificate(if provided)</label>
+                            <input type="text" placeholder="Place" class="form__243place" name="243Place" required>
+                        </div>
+                            
+                  </div>
+                
+                <h5 style="font-size:10px; color:grey;">Topic IV </h5>
+                
+                       <div class="fields">
+                         
+                         <div class="input-field">
+                            <label>Topic</label>
+                            <input type="text" placeholder="Name of Education" class="form__244edu" name="244edu" required>
+                         </div>
+                           
+                         <div class="input-field">
+                            <label>Organizaiton</label>
+                            <input type="text" placeholder="Level" class="form__245level" name="245Level" required>
+                         </div>
+                        <div class="input-field">
+                            <label>Place</label>
+                            <input type="text" placeholder="Year" class="form__245year" name="245Year" required>
+                        </div>        
+                             
+                        <div class="input-field">
+                            <label>Year</label>
+                            <input type="text" placeholder="Year of Completion" name="246Year_completed" class="form__246year_completed" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>Certificate(if provided)</label>
+                            <input type="text" placeholder="Place" class="form__247place" name="247Place" required>
+                        </div>
+                            
+                  </div>
                 <h5 style="font-size:13px; color:grey;">2.7 Language Skill</h5>
                     <h5 style="font-size:13px; color:grey;">Language I</h5>
                     <div class="fields">
                     
                       <div class="input-field">
                             <label>Language</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Language" class="form__248language" name="248language">
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__2" name="102Gender" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -1376,7 +2361,8 @@ table, td, th, tr {
                     </div>
 
                     <br>
-                    <h5 style="font-size:13px; color:grey;">Information of Dropped Out</h5>
+                <div class="details personal"> 
+                    <h3 style="font-size:13px; color:grey;">Information of Dropped Out</h5>
                     <h5 style="font-size:13px; color:grey;">3.1 basic information about dropped out from school</h5>
                     <div class="fields">
                     
@@ -1478,8 +2464,9 @@ table, td, th, tr {
                       
                         
                     </div> 
-                <!-- ======================================================================================= -->
-                <!-------------------------------- End of Personal Information -------------------------------->
+                
+                <!-- ==================================================================================== -->
+                <!------------------------------ End of Info in Thailand--------------------------------->
                 <br>
                 <br>
              
