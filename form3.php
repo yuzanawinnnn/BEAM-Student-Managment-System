@@ -1125,6 +1125,359 @@ table, td, th, tr {
                     </div>
                
                   </div> 
+                
+                
+                <!------------------------------------------------------------------------------------------->
+                <h5 style="font-size:13px; color:grey;">2.7 Language Skill</h5>
+                    <h5 style="font-size:13px; color:grey;">Language I</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Language</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Listening</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Speaking</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Reading</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div><div class="input-field">
+                            <label>Writing</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5 style="font-size:13px; color:grey;">Language II</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Language</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Listening</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Speaking</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Reading</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div><div class="input-field">
+                            <label>Writing</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5 style="font-size:13px; color:grey;">Language III</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Language</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Listening</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Speaking</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Reading</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div><div class="input-field">
+                            <label>Writing</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5 style="font-size:13px; color:grey;">Language IV</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Language</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Listening</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Speaking</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Reading</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div><div class="input-field">
+                            <label>Writing</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5 style="font-size:13px; color:grey;">Language V</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Language</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Listening</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Speaking</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Reading</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div><div class="input-field">
+                            <label>Writing</label>
+                            <select class="form__102gender" name="102Gender" >
+                                <option disabled selected>Select Proficiency</option>
+                                <option>Fair</option>
+                                <option>Good</option>
+                                <option>Very Good</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <h5 style="font-size:13px; color:grey;">Health Issue</h5>
+    
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>Height</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Weight</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                        <div class="input-field">
+                            <label>Congenital/ Chronic disease </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                        <div class="input-field">
+                            <label>Drug Allergy </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>Food Allergy</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                    </div>
+
+                    <br>
+                    <h5 style="font-size:13px; color:grey;">Information of Dropped Out</h5>
+                    <h5 style="font-size:13px; color:grey;">3.1 basic information about dropped out from school</h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>1.ระดับการเรียนล่าสุด/ The last education level student studied</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>2.ปีสุดท้ายที่เข้าเรียน/ The year of last schooling</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                        <div class="input-field">
+                            <label>3.สถานศึกษาสุดท้ายที่เข้า/ The last school which student studied</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                        
+                    </div> 
+                    <h5 style="font-size:13px; color:grey;">3.2 สาเหตุที่ออกจากระบบการศึกษา(โปรดกรอกข้อมูลลงในช่องว่างหรือทำเครื่องหมาย  ลงในช่อง) </h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>1.ระดับการเรียนล่าสุด/ The last education level student studied</label>
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> ทำงาน</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> แต่งงาน</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> เศรษฐกิจ สถานะทางการเงิน</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> วัฒนธรรม </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> การยอมรับ (ใบรับรองการศึกษา) </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> การเดินทาง  </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> สุขภาพ </label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> อื่น ๆ โปรดระบุ </label><br>
+                      </div>
+ 
+                    </div>
+                    <h5 style="font-size:13px; color:grey;">3.3 หากนักเรียนกำลังทำงานอยู่หลังจากที่หลุดออกจากระบบศึกษาโปรดระบุข้อมูลดังต่อไปนี้ /If student is working after dropping out from school, please provide following information. </h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>1.ประเภทงานที่ทำ / Type of work </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>2.ตำแหน่งงานที่ทำ / Job position </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>3.ชั่วโมงการทำงานต่ออาทิตย์/ Total working hours per week </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>4.ภาษาที่ใช้ในสถานที่ทำงาน / Language used at work </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>5.สถานที่ทำงาน / Place of work </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>6.รายได้ต่อเดือน / Monthly income </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      
+                        
+                    </div> 
+                    <h5 style="font-size:13px; color:grey;">3.4 หากนักเรียนออกจากสถานศึกษาเพราะเหตุผลของการแต่งงาน โปรดระบุข้อมูลดังต่อไปนี้/ If student dropped out for the marriage, please provide the following information. </h5>
+                    <div class="fields">
+                    
+                      <div class="input-field">
+                            <label>1.อายุของนักเรียนขณะที่แต่งงาน /The age of student upon marriage:</label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>2.ตำแหน่งงานที่ทำ / Job position </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>3.ชั่วโมงการทำงานต่ออาทิตย์/ Total working hours per week </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>4.ภาษาที่ใช้ในสถานที่ทำงาน / Language used at work </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>5.สถานที่ทำงาน / Place of work </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      <div class="input-field">
+                            <label>6.รายได้ต่อเดือน / Monthly income </label>
+                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                      </div>
+                      
+                        
+                    </div> 
                 <!-- ======================================================================================= -->
                 <!-------------------------------- End of Personal Information -------------------------------->
                 <br>
