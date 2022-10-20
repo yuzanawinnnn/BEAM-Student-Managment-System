@@ -207,8 +207,9 @@ table, td, th, tr {
     margin: 8px 0;
         }
  
-    </style>
+</style>
 </head>
+    
 <body>
     <div class="container">
         <header>Student Biography</header>
@@ -219,16 +220,17 @@ table, td, th, tr {
                 <!----------------------------------------Personal Information -------------------------------->
                 <!--=========================================================================================-->
                 <div class="details personal">  
-                    <h3 style="font-size:20px; color:grey;">Personal Information</h3>
-                       <div class="fields">
+                <h3 style="font-size:20px; color:grey;">Personal Information</h3>
+                       
+                    <div class="fields">
                          <div class="input-field">
-                            <label>ชือ/Name</label>
-                            <input type="text" placeholder="Enter your name" class="form__1name" name="Name" required>
+                         <label>ชือ/Name</label>
+                         <input type="text" placeholder="Enter your name" class="form__1name" name="Name" required>
                          </div>
                            
                          <div class="input-field">
-                            <label>Surname</label>
-                            <input type="text" placeholder="Enter your surname" class="form__2surname" name="Surame" required>
+                         <label>Surname</label>
+                         <input type="text" placeholder="Enter your surname" class="form__2surname" name="Surame" required>
                          </div>
                            
                         <div class="input-field">
@@ -2123,7 +2125,7 @@ table, td, th, tr {
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__2" name="102Gender" >
+                            <select class="form__249listening" name="249listening" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2132,7 +2134,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Speaking</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__250speaking" name="250speaking" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2141,7 +2143,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Reading</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__251reading" name="251reading" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2149,7 +2151,7 @@ table, td, th, tr {
                             </select>
                         </div><div class="input-field">
                             <label>Writing</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__252writing" name="252writing" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2163,11 +2165,11 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>Language</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Language" class="form__253language" name="253language">
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__254listening" name="254listening" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2176,7 +2178,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Speaking</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__255speaking" name="255speaking" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2185,7 +2187,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Reading</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__256reading" name="256reading" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2193,7 +2195,7 @@ table, td, th, tr {
                             </select>
                         </div><div class="input-field">
                             <label>Writing</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__257writing" name="257writing" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2207,11 +2209,11 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>Language</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Language" class="form__258language" name="258language">
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__259listening" name="259listening" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2220,7 +2222,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Speaking</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__260speaking" name="260speaking" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2229,7 +2231,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Reading</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__261reading" name="261reading" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2237,7 +2239,7 @@ table, td, th, tr {
                             </select>
                         </div><div class="input-field">
                             <label>Writing</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__262writing" name="262writing" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2245,17 +2247,16 @@ table, td, th, tr {
                             </select>
                         </div>
                     </div>
-
                     <h5 style="font-size:13px; color:grey;">Language IV</h5>
                     <div class="fields">
                     
                       <div class="input-field">
                             <label>Language</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Language" class="form__263language" name="263language">
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__264listening" name="264listening" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2264,7 +2265,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Speaking</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__265speaking" name="265speaking" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2273,7 +2274,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Reading</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__266reading" name="266reading" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2281,7 +2282,7 @@ table, td, th, tr {
                             </select>
                         </div><div class="input-field">
                             <label>Writing</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__267writing" name="267writing" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2289,17 +2290,16 @@ table, td, th, tr {
                             </select>
                         </div>
                     </div>
-
                     <h5 style="font-size:13px; color:grey;">Language V</h5>
                     <div class="fields">
                     
                       <div class="input-field">
                             <label>Language</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Sibling Name" class="form__268sibname" name="268sibName">
                       </div>
                       <div class="input-field">
                             <label>Listening</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__269gender" name="269Gender" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2308,7 +2308,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Speaking</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__270gender" name="270Gender" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2317,7 +2317,7 @@ table, td, th, tr {
                         </div>
                         <div class="input-field">
                             <label>Reading</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__271gender" name="271Gender" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2325,7 +2325,7 @@ table, td, th, tr {
                             </select>
                         </div><div class="input-field">
                             <label>Writing</label>
-                            <select class="form__102gender" name="102Gender" >
+                            <select class="form__272gender" name="272Gender" >
                                 <option disabled selected>Select Proficiency</option>
                                 <option>Fair</option>
                                 <option>Good</option>
@@ -2340,43 +2340,43 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>Height</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Height" class="form__273height" name="273height">
                       </div>
                       <div class="input-field">
                             <label>Weight</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Weight" class="form__274weight" name="274weight">
                       </div>
                         <div class="input-field">
                             <label>Congenital/ Chronic disease </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Congenital/ Chronic disease" class="form__275chronic" name="275chronic">
                       </div>
                         <div class="input-field">
                             <label>Drug Allergy </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Drug Allergy" class="form__276dallergy" name="276dallergy">
                       </div>
                       <div class="input-field">
-                            <label>Food Allergy</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                          <label>Food Allergy</label>
+                            <input type="text" placeholder="Food Allergy" class="form__277fallergy" name="277fallergy">
                       </div>
                     </div>
 
                     <br>
                 <div class="details personal"> 
-                    <h3 style="font-size:13px; color:grey;">Information of Dropped Out</h5>
-                    <h5 style="font-size:13px; color:grey;">3.1 basic information about dropped out from school</h5>
+                    <h3 style="font-size:13px; color:grey;">Information of Dropped Out</h3>
+                    <h5 style="font-size:13px; color:grey;">3.1 Basic information about dropped out from school</h5>
                     <div class="fields">
                     
                       <div class="input-field">
-                            <label>1.ระดับการเรียนล่าสุด/ The last education level student studied</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>1.ระดับการเรียนล่าสุด/ The Last Education Level student studied</label>
+                            <input type="text" placeholder="Last Education Level" class="form__278lastedu" name="278lastedu">
                       </div>
                       <div class="input-field">
                             <label>2.ปีสุดท้ายที่เข้าเรียน/ The year of last schooling</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="The year of last schooling" class="form__279lastschool" name="279lastschool">
                       </div>
-                        <div class="input-field">
-                            <label>3.สถานศึกษาสุดท้ายที่เข้า/ The last school which student studied</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                     <div class="input-field">
+                            <label>3.สถานศึกษาสุดท้ายที่เข้า/ The Last School which student studied</label>
+                            <input type="text" placeholder="The Last School" class="form__280lastschool" name="280lastschool">
                       </div>
                         
                     </div> 
@@ -2385,22 +2385,26 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>1.ระดับการเรียนล่าสุด/ The last education level student studied</label>
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                            <label for="vehicle1"> ทำงาน</label><br>
-                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                            <label for="vehicle2"> แต่งงาน</label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> เศรษฐกิจ สถานะทางการเงิน</label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> วัฒนธรรม </label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> การยอมรับ (ใบรับรองการศึกษา) </label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> การเดินทาง  </label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> สุขภาพ </label><br>
-                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                            <label for="vehicle3"> อื่น ๆ โปรดระบุ </label><br>
+                            <input type="checkbox" id="281work" name="281work" value="Work">
+                            <label for="281work"> ทำงาน</label><br>
+                            <input type="checkbox" id="282marry" name="282marry" value="Marry">
+                            <label for="282marry"> แต่งงาน</label><br>
+                            <input type="checkbox" id="283finance" name="283finance" value="Finance">
+                            <label for="283finance"> เศรษฐกิจ สถานะทางการเงิน</label><br>
+                            <input type="checkbox" id="284culture" name="284culture" value="Culture">
+                            <label for="284culture"> วัฒนธรรม </label><br>
+                            <input type="checkbox" id="285accept" name="285accept" value="Acceptance">
+                            <label for="285accept"> การยอมรับ (ใบรับรองการศึกษา) </label><br>
+                            <input type="checkbox" id="286travel" name="286travel" value="Travel">
+                            <label for="286travel"> การเดินทาง  </label><br>
+                            <input type="checkbox" id="287health" name="287health" value="Health">
+                            <label for="287health"> สุขภาพ </label><br>
+                            <input type="checkbox" id="288other" name="288other" value="Other">
+                            <label for="288other"> อื่น ๆ โปรดระบุ </label><br>
+                      </div>
+                     <div class="input-field">
+                            <label>if you choose Other, Please specify</label>
+                            <input type="text" placeholder="if you choose other, please specify" class="form__289specify" name="289specify">
                       </div>
  
                     </div>
@@ -2409,27 +2413,27 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>1.ประเภทงานที่ทำ / Type of work </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Type of work" class="form__290work" name="290work">
                       </div>
                       <div class="input-field">
                             <label>2.ตำแหน่งงานที่ทำ / Job position </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Job Position" class="form__291position" name="291position">
                       </div>
                       <div class="input-field">
                             <label>3.ชั่วโมงการทำงานต่ออาทิตย์/ Total working hours per week </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Total working hours" class="form__292workhr" name="292workhr">
                       </div>
                       <div class="input-field">
                             <label>4.ภาษาที่ใช้ในสถานที่ทำงาน / Language used at work </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Language used at work" class="form__293lang" name="293lang">
                       </div>
                       <div class="input-field">
                             <label>5.สถานที่ทำงาน / Place of work </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Place of work" class="form__294place" name="294place">
                       </div>
                       <div class="input-field">
                             <label>6.รายได้ต่อเดือน / Monthly income </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Sibling Name" class="form__295income" name="295income">
                       </div>
                       
                         
@@ -2439,31 +2443,68 @@ table, td, th, tr {
                     
                       <div class="input-field">
                             <label>1.อายุของนักเรียนขณะที่แต่งงาน /The age of student upon marriage:</label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <input type="text" placeholder="Age" class="form__296age" name="296age">
                       </div>
                       <div class="input-field">
-                            <label>2.ตำแหน่งงานที่ทำ / Job position </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>2.อาชีพของคู่สามีหรือภรรยา / Job of spouse </label>
+                            <input type="text" placeholder="Job of spouse" class="form__297spousejob" name="297spousejob">
                       </div>
                       <div class="input-field">
-                            <label>3.ชั่วโมงการทำงานต่ออาทิตย์/ Total working hours per week </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>3.จำนวนบุตร / Number of children </label>
+                            <input type="text" placeholder="Number of children" class="form__298nochild" name="298nochild">
                       </div>
                       <div class="input-field">
-                            <label>4.ภาษาที่ใช้ในสถานที่ทำงาน / Language used at work </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>4.อายุของบุตร/ Age of children </label>
+                            <input type="text" placeholder="Age of children" class="form__299childage" name="299childage">
                       </div>
                       <div class="input-field">
-                            <label>5.สถานที่ทำงาน / Place of work </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>5.อาชีพปัจจุบัน (ถ้ามี)/ Current job (if any) </label>
+                            <input type="text" placeholder="Current job" class="form__300curjob" name="300curjob">
                       </div>
                       <div class="input-field">
-                            <label>6.รายได้ต่อเดือน / Monthly income </label>
-                            <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
+                            <label>6.อื่น ๆ โปรดระบุ/ Other (Please Specify) </label>
+                            <input type="text" placeholder="Other (Please Specify)" class="form__301other" name="301other">
                       </div>
                       
                         
                     </div> 
+                    <h5 style="font-size:13px; color:grey;">3.5 รูปถ่าย นักเรียน ผู้ปกครอง และชุมชน/ Photo of student, guardian and community</h5>
+                    <div class="fields">
+                    
+                    <div class="input-field">
+                        <label>นักเรียน/Student</label>
+                        <input type="file" class="form__302stupic" name="302stupic" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">นักเรียน/Student
+                        </button>
+                    </div>
+                    <div class="input-field">
+                        <label>ผู้ปกครอง/Guardian</label>
+                        <input type="file" class="form__303gurpic" name="303gurpic" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">ผู้ปกครอง/Guardian </button>
+                    </div>
+                    <div class="input-field">
+                        <label>ผู้ปกครอง/Guardian</label>
+                        <input type="file" class="form__304gurpic" name="304gurpic" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">ผู้ปกครอง/Guardian </button>
+                    </div>
+                    <div class="input-field">
+                        <label>ที่พักอาศัย/Residence </label>
+                        <input type="file" class="form__304gurpic" name="305residence" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">ที่พักอาศัย/Residence </button>
+                    </div>
+                    <div class="input-field">
+                        <label>ผู้ปกครอง/Guardian</label>
+                        <input type="file" class="form__304gurpic" name="306" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">ผู้ปกครอง/Guardian </button>
+                    </div>
+                    <div class="input-field">
+                        <label>ผู้ปกครอง/Guardian</label>
+                        <input type="file" class="form__304gurpic" name="304gurpic" required>
+                        <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">ผู้ปกครอง/Guardian </button>
+                    </div>
+                      
+                        
+                    </div>
                 
                 <!-- ==================================================================================== -->
                 <!------------------------------ End of Info in Thailand--------------------------------->
