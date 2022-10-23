@@ -352,11 +352,12 @@ table, td, th, tr {
                 <!--=========================================================================================-->
                 <div class="details personal">  
                     <h3 style="font-size:20px; color:grey;">Parent Information</h3>
-                       <div class="fields">
-                         <div class="input-field">
+                       
+                    <div class="fields"><!----------------- FATHER ------------------->
+                        <div class="input-field">
                             <label>Father</label>
                             <input type="text" placeholder="Father's Name" class="form__16dadname" name="DadName" required>
-                         </div>
+                        </div>
                         <div class="input-field">
                             <label>อายุ/Age</label>
                             <input type="number" placeholder="Father's Age" min="1" max="100" name="DadAge" class="form__17dadage" required>
@@ -420,16 +421,12 @@ table, td, th, tr {
                         </div>
                         
                         <!----- HIDDEN DIV -------->
-                        <!------------------------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>
-                        <!------------------------->
-                        <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
-                        
-                        <!----------------- MOTHER ------------------->
+                    </div><!-----------------END OF FATHER ------------------->
+                    
+                    <div class="fields"><!----------------- MOTHER ------------------->
                         <div class="input-field">
                             <label>Mother</label>
                             <input type="text" placeholder="Mother's Name" class="form__24dadname" name="MomName" required>
@@ -498,13 +495,11 @@ table, td, th, tr {
                             <input type="text" placeholder="Annual Average Income" class="form__31momannualincome" name="momannualincome" required>
                         </div>
                            
-                        <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV -------->
-                        <!---------------END OF MOTHER------------------------>
+                           <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+                           
+                        <!----------------------END OF MOTHER------------------------>
                         
                         <div class="input-field">
                             <label>Guardian</label>
@@ -574,12 +569,11 @@ table, td, th, tr {
                             <input type="text" placeholder="Annual Average Income" class="form__38Guarannualincome" name="Guarannualincome" required>
                         </div>
                         
-                        <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV -------->
+                          <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+                           
+                           
                         <div class="input-field1">
                             <fieldset style="padding:0 2px;">
                                 <legend style="font-size: 12px;">Relationship</legend>
@@ -597,12 +591,9 @@ table, td, th, tr {
                             <input type="text" placeholder="Specify Other" class="form__40Other" name="RelationOther" required>
                         </div>
                            
-                        <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV -------->  
+                          <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
                         <div class="input-field">
                             <label>Address in Country of Origin</label>
@@ -613,12 +604,9 @@ table, td, th, tr {
                             <input type="text" placeholder="Current Address" class="form__42curadd" name="Curadd" required>
                         </div>
                            
-                        <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV --------> 
+                            <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
                         <div class="input-field">
                             <label>Place of Information Collecting</label>
@@ -640,13 +628,12 @@ table, td, th, tr {
                 <br>
                 <br>
                 
-                <!-----------------------------------Information of Place-------------------------------------->
+                <!---------------------------------Information in Place of Birth------------------------------->
                 <!--=========================================================================================-->
                 <div class="details personal">  
-                    <h3 style="font-size:20px; color:grey;">Information of Place</h3>
-                    <h4 style="font-size:15px; color:grey;">Information in Place of Birth</h4>
-                    <h5 style="font-size:13px; color:grey;">1.1 Information at Birth</h5>
-                       <div class="fields">
+                    <h3 style="font-size:20px; color:grey;">Information in Place of Birth</h3>
+                    <h4 style="font-size:13px; color:grey;">1.1 Information at Birth</h4>
+                       <div class="fields"><!-----------------------Info at Birth ----------------------->
                          
                          <div class="input-field">
                             <label>ชือ/Name</label>
@@ -715,17 +702,14 @@ table, td, th, tr {
                         </div>
                            
                         <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV --------> 
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
                          
-                  </div>
-                    <br>
-                      <h5 style="font-size:13px; color:grey;">1.2 Information in Identitiy Card</h5>
-                       <div class="fields">
+                  </div><!-----------------------End of Info at Birth ----------------------->
+                  <br>
+                  <h4 style="font-size:13px; color:grey;">1.2 Information in Identitiy Card</h4>
+                  <div class="fields"><!-----------------------Info in Identity Card ----------------------->
                          
                          <div class="input-field">
                             <label>ชือ/Name</label>
@@ -794,18 +778,15 @@ table, td, th, tr {
                         </div>
                            
                         <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV --------> 
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
                          
-                  </div>
-                    <br>
+                  </div><!-----------------------End of Info in Identity card ----------------------->
+                  <br>
                     
-                      <h5 style="font-size:13px; color:grey;">1.3 Information of Guardian</h5>
-                       <div class="fields">
+                 <h4 style="font-size:13px; color:grey;">1.3 Information of Guardian</h4>
+                 <div class="fields"><!-----------------------Info of Guardian ----------------------->
                            
                        
                         <div class="input-field1">
@@ -901,14 +882,14 @@ table, td, th, tr {
                             <label>ความเกี่ยวข้อง </label>
                             <input type="text" placeholder="ความเกี่ยวข้อง " class="form__72temp" name="72temp" required>
                         </div>
-                  </div>
+                    </div><!---------------------End of Info of Guardian ------------------>
                     <br>
-                <!------------------------------------End of Info of Guardian ----------------------------------------->
-                <!------------------------------------Table of sibling ------------------------------------------------>
-                    <h5 style="font-size:13px; color:grey;">1.4 Number of Siblings (Optional)</h5>
+                                
+                                
+                    <h4 style="font-size:13px; color:grey;">1.4 Number of Siblings (Optional)</h4>
                     <h5 style="font-size:13px; color:grey;">Sibling I</h5>
                     
-                    <div class="fields">
+                    <div class="fields"><!-----------------------Table of sibling ----------------------->
                     
                       <div class="input-field">
                             <label>ชือ/Name</label>
@@ -995,7 +976,7 @@ table, td, th, tr {
                         </div>
                        
                     </div>
-               <h5 style="font-size:13px; color:grey;">Sibling III</h5>
+                    <h5 style="font-size:13px; color:grey;">Sibling III</h5>
                     <div class="fields">
                     
                       <div class="input-field">
@@ -1038,7 +1019,7 @@ table, td, th, tr {
                         </div>
                        
                     </div>
-                <h5 style="font-size:13px; color:grey;">Sibling IV</h5>
+                  <h5 style="font-size:13px; color:grey;">Sibling IV</h5>
                     <div class="fields">
                     
                       <div class="input-field">
@@ -1082,7 +1063,7 @@ table, td, th, tr {
                        
                     </div>
                     
-                                    <h5 style="font-size:13px; color:grey;">Sibling V</h5>
+                    <h5 style="font-size:13px; color:grey;">Sibling V</h5>
                     <div class="fields">
                     
                       <div class="input-field">
@@ -1126,15 +1107,13 @@ table, td, th, tr {
                        
                     </div>
                
-                  </div> 
-                <!-- ======================================================================================= -->
-                <!---------------------------- End of Sibling Table Information ----------------------------->
-                <!--------------------------------Table of Education ---------------------------------------->
-                <br>   
-                <h5 style="font-size:13px; color:grey;">1.5 Education Information (of student)</h5>
+                  </div> <!-------------------- End of Sibling Table ---------------------->
+                  <br>  
+                
+                    <h4 style="font-size:13px; color:grey;">1.5 Education Information (of student)</h4>
                     <h5 style="font-size:13px; color:grey;">Institution I</h5>
                     
-                    <div class="fields">
+                    <div class="fields"> <!-------------------Table of Education ------------------------->
                     
                       <div class="input-field">
                             <label>Name of Institution</label>
@@ -1254,21 +1233,16 @@ table, td, th, tr {
                             <input type="text" placeholder="Contact" class="form__127remark" name="127Remark" >
                       </div>
                        
-                    </div>
-                    
-               
-               
-                <!-- ===================================================================================== -->
-                <!---------------------------- End of Table Institution Information ------------------------->
+                    </div><!---------------- End of Table Institution ------------------->
                 <br>
                 
                 
-                <!---------------------------------Table of xxxxxx ------------------------------------------>
+                
                 <br>   
                 <h5 style="font-size:13px; color:grey;">1.6 โอกาสการได้รับการสนับสนุนเพื่อศึกษาต่อ (ถ้ามี) </h5>
              
                     
-                    <div class="fields">
+                    <div class="fields"><!-------------------------Table of xxxxxx ---------------------------------->
                     
                       <div class="input-field">
                             <label>หน่วยงาน/องค์กร / Department or organization: </label>
@@ -1294,25 +1268,23 @@ table, td, th, tr {
                             <input type="text" placeholder="Aspiration for continue education" class="form__132asp" name="132asp" >
                     </div>
                     
-                    <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                    <!----- HIDDEN DIV --------> 
+                         <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                        
-                    </div>       
-               
-                <!-- ======================================================================================= -->
-                <!-------------------------------- End of Table Institution Information ------------------------------>
+                     </div><!------------------- End of Table xxxxxxxx ------------------------>
+              
                 <br>
-                <br>
-                <!----------------------------------Information in Thailand --------------------------------->
-                <!--=======================================================================================-->
+        <!--====================================================================================================-->
+        <!---------------------------------End of Information in Place of Birth----------------------------------->
+                
+            
+        <!---------------------------------------Information in Thailand ------------------------------------------>
+        <!--=====================================================================================================-->
                 <div class="details personal">  
                     <h3 style="font-size:20px; color:grey;">Information in Thailand</h3>
-                     <h5 style="font-size:13px; color:grey;">2.1ข้อมูลการเข้าไทยตั้งแต่ครั้งแรก/Information at first arrive to Thailand (ตอบตามความสมัครใจ)</h5>
-                       <div class="fields">
+                    <h4 style="font-size:13px; color:grey;">2.1ข้อมูลการเข้าไทยตั้งแต่ครั้งแรก/Information at first arrive to Thailand (ตอบตามความสมัครใจ)</h4>
+                       <div class="fields"><!------------------- Info First Arrival ------------------------>
                           
                          <div class="input-field">
                             <label>เข้ามาในประเทศไทยครั้งแรกเมื่อไหร่/When was the first time of arriving to Thailand </label>
@@ -1333,12 +1305,12 @@ table, td, th, tr {
                             <input type="text" placeholder="Address" class="form__136Address" name="136Address" required>
                            </div>
                          
-                    </div>
+                       </div><!------------------- End of Info First Arrival ------------------------>
                     
                   </div> 
                  
-                    <h5 style="font-size:13px; color:grey;">2.2 ข้อมูลเอกสารประจำตัวที่ออกโดยรัฐบาลไทย/  Information in the identity card or passport provided by government</h5>
-                       <div class="fields">
+                    <h4 style="font-size:13px; color:grey;">2.2 ข้อมูลเอกสารประจำตัวที่ออกโดยรัฐบาลไทย/  Information in the Thailand identity card or passport provided by Thailand government</h4>
+                    <div class="fields"><!------------------- Info in Thailand ID ------------------------>
                          
                          <div class="input-field">
                             <label>ชือ/Name</label>
@@ -1438,128 +1410,17 @@ table, td, th, tr {
                         </div>
                         
                         <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label style="color:white"></label>
-                            <input type="text" placeholder="Annual Average Income" class="form__annualincome" name="annualllincome" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV --------> 
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                            
                          
-                  </div>
+                  </div><!------------------- End of Info in Thailand ID ------------------------>
                 
-                <h5 style="font-size:13px; color:grey;">2.2 ข้อมูลเอกสารประจำตัวที่ออกโดยรัฐบาลไทย/  Information in the identity card or passport provided by government</h5>
-                       <div class="fields">
-                         
-                         <div class="input-field">
-                            <label>ชือ/Name</label>
-                            <input type="text" placeholder="Name" class="form__137name" name="137Name" required>
-                         </div>
-                           
-                         <div class="input-field">
-                            <label>Nickname</label>
-                            <input type="text" placeholder="Nickname" class="form__138nickname" name="138Nickame" required>
-                         </div>
-                        <div class="input-field">
-                            <label>วนัเกิด/Date of Birth</label>
-                            <input type="date" placeholder="Birth date" class="form__139dob" name="139DOB" required>
-                        </div>        
-
-                        <div class="input-field">
-                            <label>Occupation</label>
-                            <input type="text" placeholder="Occupation" class="form__140occpation" name="140occupation" required>
-                        </div>
-                        
-                        <div class="input-field">
-                            <label>Workplace (District)</label>
-                            <input type="text" placeholder="Workplace(District)" class="form__141workplace" name="141workplace" required>
-                        </div>
-                           
-                        <div class="input-field">
-                            <label>Work Permit (if any)</label>
-                            <input type="text" placeholder="Work Permit" class="form__142workpermit" name="142workpermit" required>
-                        </div>
-                        
-                        <div class="input-field">
-                            <label>Number of Work Permit</label>
-                            <input type="number" placeholder="Number of Work Permit" class="form__143permitno" name="143permitno" required>
-                        </div> 
-                        <div class="input-field">
-                            <label>Number of employee's Social Welfare Reg: card (if any)</label>
-                            <input type="text" placeholder="Social Welfare Reg: card No." class="form__143SWRcard" name="143SWRcard" required>
-                        </div>
-                           <div class="input-field">
-                            <label>ศาสนา/Religion</label>
-                            <select class="form__144religion" name="144Religion" required>
-                                <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
-                            </select>
-                        </div>
-                   
-                        <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
-                            <select class="form__145nationality" name="145Nationality" required>
-                                <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
-                            </select>
-                        </div>
-                        
-                        <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
-                            <select class="form__146ethnicity" name="146Ethnicity" required>
-                                <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
-                            </select>
-                        </div>
-                           
-                        <div class="input-field">
-                            <label>Father</label>
-                            <input type="text" placeholder="Father's Name" class="form__147father" name="147father" required>
-                        </div>
-                           
-                        <div class="input-field">
-                            <label>Mother</label>
-                            <input type="text" placeholder="Mother's Name" class="form__148mother" name="148mother" required>
-                        </div>
-                        <div class="input-field">
-                            <label>Address in passport or identity card</label>
-                            <input type="text" placeholder="Addressin passport or identity card" class="form__149address" name="149address" required>
-                        </div>
-                        <div class="input-field">
-                            <label>Current Address</label>
-                            <input type="text" placeholder="Current Address" class="form__150curaddress" name="150curaddress" required>
-                        </div>
-                        
-                        <!----- HIDDEN DIV -------->
-                        <div class="input-field">
-                            <label></label>
-                            <input type="text" hidden>
-                        </div>  
-                        <!----- HIDDEN DIV --------> 
-                           
-                         
-                  </div>
-                <h5 style="font-size:13px; color:grey;">2.3 History of migration</h5>
-                <h5 style="font-size:10px; color:grey;">Country I </h5>
                 
-                       <div class="fields">
+                <h4 style="font-size:13px; color:grey;">2.3 History of Migration</h4>
+                <h5 style="font-size:13px; color:grey;">Country I </h5>
+                
+                       <div class="fields"><!------------------ History of Migration ----------------------->
                          
                          <div class="input-field">
                             <label>Country</label>
@@ -1588,8 +1449,8 @@ table, td, th, tr {
                             <label>Reason</label>
                             <input type="text" placeholder="Reason" class="form__155reason" name="155reason" required>
                            </div>  
-                  </div>
-                     <h5 style="font-size:10px; color:grey;">Country II </h5>
+                     </div>
+                     <h5 style="font-size:13px; color:grey;">Country II </h5>
                 
                        <div class="fields">
                          
@@ -1621,7 +1482,7 @@ table, td, th, tr {
                             <input type="text" placeholder="Reason" class="form__161reason" name="161reason" required>
                            </div>  
                   </div>
-                     <h5 style="font-size:10px; color:grey;">Country III </h5>
+                     <h5 style="font-size:13px; color:grey;">Country III </h5>
                 
                        <div class="fields">
                          
@@ -1653,7 +1514,7 @@ table, td, th, tr {
                             <input type="text" placeholder="Reason" class="form__167reason" name="167reason" required>
                            </div>  
                   </div>
-                     <h5 style="font-size:10px; color:grey;">Country IV </h5>
+                     <h5 style="font-size:13px; color:grey;">Country IV </h5>
                 
                        <div class="fields">
                          
@@ -1684,12 +1545,12 @@ table, td, th, tr {
                             <label>Reason</label>
                             <input type="text" placeholder="Reason" class="form__173reason" name="173reason" required>
                            </div>  
-                  </div>
+                  </div><!------------------- End of History of Migration ------------------------>
                 
-                <h5 style="font-size:13px; color:grey;">2.4 Working Experience</h5>
-                <h5 style="font-size:10px; color:grey;"> Work I </h5>
+                <h4 style="font-size:13px; color:grey;">2.4 Working Experience</h4>
+                <h5 style="font-size:13px; color:grey;"> Work I </h5>
                 
-                       <div class="fields">
+                       <div class="fields"><!------------------- Working Expeience ------------------------>
                          
                          <div class="input-field">
                             <label>Occupation</label>
@@ -1720,7 +1581,7 @@ table, td, th, tr {
                         </div>  
                      </div>
                 
-                     <h5 style="font-size:10px; color:grey;"> Work II </h5>
+                     <h5 style="font-size:13px; color:grey;"> Work II </h5>
                 
                        <div class="fields">
                          
@@ -1752,7 +1613,7 @@ table, td, th, tr {
                             <input type="text" placeholder="Reason" class="form__185province" name="185province" required>
                         </div>  
                      </div>
-                    <h5 style="font-size:10px; color:grey;"> Work III </h5>
+                    <h5 style="font-size:13px; color:grey;"> Work III </h5>
                 
                        <div class="fields">
                          
@@ -1784,7 +1645,7 @@ table, td, th, tr {
                             <input type="text" placeholder="Reason" class="form__191province" name="191province" required>
                         </div>  
                      </div>
-                <h5 style="font-size:10px; color:grey;"> Work IV </h5>
+                <h5 style="font-size:13px; color:grey;"> Work IV </h5>
                 
                        <div class="fields">
                          
@@ -1816,7 +1677,7 @@ table, td, th, tr {
                             <input type="text" placeholder="Reason" class="form__197province" name="197province" required>
                         </div>  
                      </div>
-                <h5 style="font-size:10px; color:grey;"> Work V </h5>
+                <h5 style="font-size:13px; color:grey;"> Work V </h5>
                 
                        <div class="fields">
                          
@@ -1847,12 +1708,12 @@ table, td, th, tr {
                             <label>Province</label>
                             <input type="text" placeholder="Reason" class="form__203province" name="203province" required>
                         </div>  
-                     </div>
+                     </div><!------------------- End of Working Experience ------------------------>
                 <br>
-                <h5 style="font-size:13px; color:grey;">2.5 Studied places of migration</h5>
-                <h5 style="font-size:10px; color:grey;">Education I </h5>
+                <h4 style="font-size:13px; color:grey;">2.5 Studied places on Migration</h4>
+                <h5 style="font-size:13px; color:grey;">Education I </h5>
                 
-                       <div class="fields">
+                       <div class="fields"><!---------------- Studied places on Migration --------------------->
                          
                          <div class="input-field">
                             <label>Name of Education</label>
@@ -1877,9 +1738,13 @@ table, td, th, tr {
                             <label>Place (Name of School or Learning Center)</label>
                             <input type="text" placeholder="Place" class="form__208place" name="208Place" required>
                         </div>
+                            <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+
                             
                   </div>
-                <h5 style="font-size:10px; color:grey;">Education II </h5>
+                <h5 style="font-size:13px; color:grey;">Education II </h5>
                 
                        <div class="fields">
                          
@@ -1906,9 +1771,13 @@ table, td, th, tr {
                             <label>Place (Name of School or Learning Center)</label>
                             <input type="text" placeholder="Place" class="form__213place" name="213Place" required>
                         </div>
+                            <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+
                             
                   </div>
-                <h5 style="font-size:10px; color:grey;">Education III </h5>
+                <h5 style="font-size:13px; color:grey;">Education III </h5>
                 
                        <div class="fields">
                          
@@ -1935,9 +1804,12 @@ table, td, th, tr {
                             <label>Place (Name of School or Learning Center)</label>
                             <input type="text" placeholder="Place" class="form__218place" name="218Place" required>
                         </div>
-                            
+                             <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+
                   </div>
-                <h5 style="font-size:10px; color:grey;">Education IV </h5>
+                <h5 style="font-size:13px; color:grey;">Education IV </h5>
                 
                        <div class="fields">
                          
@@ -1964,9 +1836,12 @@ table, td, th, tr {
                             <label>Place (Name of School or Learning Center)</label>
                             <input type="text" placeholder="Place" class="form__223place" name="223Place" required>
                         </div>
-                            
+                          <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+   
                   </div>
-                <h5 style="font-size:10px; color:grey;">Education V </h5>
+                <h5 style="font-size:13px; color:grey;">Education V </h5>
                 
                 <div class="fields">
                          
@@ -1993,13 +1868,17 @@ table, td, th, tr {
                             <label>Place (Name of School or Learning Center)</label>
                             <input type="text" placeholder="Place" class="form__228place" name="228Place" required>
                         </div>
+                     <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+
                             
-                  </div>
+                  </div><!------------------- End of Study Place on Migration ------------------------>
                 <br>
-                <h5 style="font-size:13px; color:grey;">2.6 Training Experience</h5>
-                <h5 style="font-size:10px; color:grey;">Topic I </h5>
+                <h4 style="font-size:13px; color:grey;">2.6 Training Experience</h4>
+                <h5 style="font-size:13px; color:grey;">Topic I </h5>
                 
-                       <div class="fields">
+                       <div class="fields"><!------------------- Training Experience ------------------------>
                          
                          <div class="input-field">
                             <label>Topic</label>
@@ -2024,10 +1903,13 @@ table, td, th, tr {
                             <label>Certificate(if provided)</label>
                             <input type="text" placeholder="Place" class="form__233place" name="233Place" required>
                         </div>
-                            
+                           <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+  
                   </div>
                 
-                <h5 style="font-size:10px; color:grey;">Topic II </h5>
+                <h5 style="font-size:13px; color:grey;">Topic II </h5>
                 
                        <div class="fields">
                          
@@ -2054,9 +1936,12 @@ table, td, th, tr {
                             <label>Certificate(if provided)</label>
                             <input type="text" placeholder="Place" class="form__238place" name="238Place" required>
                         </div>
-                            
+                         <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+    
                   </div>
-                <h5 style="font-size:10px; color:grey;">Topic III </h5>
+                <h5 style="font-size:13px; color:grey;">Topic III </h5>
                 
                        <div class="fields">
                          
@@ -2083,10 +1968,13 @@ table, td, th, tr {
                             <label>Certificate(if provided)</label>
                             <input type="text" placeholder="Place" class="form__243place" name="243Place" required>
                         </div>
-                            
+                          <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+   
                   </div>
                 
-                <h5 style="font-size:10px; color:grey;">Topic IV </h5>
+                <h5 style="font-size:13px; color:grey;">Topic IV </h5>
                 
                        <div class="fields">
                          
@@ -2113,11 +2001,14 @@ table, td, th, tr {
                             <label>Certificate(if provided)</label>
                             <input type="text" placeholder="Place" class="form__247place" name="247Place" required>
                         </div>
-                            
-                  </div>
-                <h5 style="font-size:13px; color:grey;">2.7 Language Skill</h5>
+                           <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+  
+                </div><!------------------- End of Training Experience ------------------------>
+                <h4 style="font-size:13px; color:grey;">2.7 Language Skill</h4>
                     <h5 style="font-size:13px; color:grey;">Language I</h5>
-                    <div class="fields">
+                    <div class="fields"><!------------------- Language Skill ------------------------>
                     
                       <div class="input-field">
                             <label>Language</label>
@@ -2332,11 +2223,12 @@ table, td, th, tr {
                                 <option>Very Good</option>
                             </select>
                         </div>
-                    </div>
+                    </div><!------------------- End of Language Skill ------------------------>
                     <br>
-                    <h5 style="font-size:13px; color:grey;">Health Issue</h5>
+                
+                    <h4 style="font-size:13px; color:grey;">Health Issue</h4>
     
-                    <div class="fields">
+                    <div class="fields"><!------------------- Health Issue ------------------------>
                     
                       <div class="input-field">
                             <label>Height</label>
@@ -2358,13 +2250,20 @@ table, td, th, tr {
                           <label>Food Allergy</label>
                             <input type="text" placeholder="Food Allergy" class="form__277fallergy" name="277fallergy">
                       </div>
-                    </div>
-
+                    </div><!------------------- End of Health Issue ------------------------>
                     <br>
-                <div class="details personal"> 
+                    <br>
+                <!-- ==================================================================================== -->
+                <!------------------------------- End of Info in Thailand----------------------------------->
+                
+                
+                <!-------------------------------- Information of Dropped Out----------------------------------->
+                <!-- ===================================================================================== -->
+                
+                    <div class="details personal"> 
                     <h3 style="font-size:13px; color:grey;">Information of Dropped Out</h3>
-                    <h5 style="font-size:13px; color:grey;">3.1 Basic information about dropped out from school</h5>
-                    <div class="fields">
+                    <h4 style="font-size:13px; color:grey;">3.1 Basic information about dropped out from school</h4>
+                    <div class="fields"><!------------------- Info of drop out ------------------------>
                     
                       <div class="input-field">
                             <label>1.ระดับการเรียนล่าสุด/ The Last Education Level student studied</label>
@@ -2379,9 +2278,9 @@ table, td, th, tr {
                             <input type="text" placeholder="The Last School" class="form__280lastschool" name="280lastschool">
                       </div>
                         
-                    </div> 
-                    <h5 style="font-size:13px; color:grey;">3.2 สาเหตุที่ออกจากระบบการศึกษา(โปรดกรอกข้อมูลลงในช่องว่างหรือทำเครื่องหมาย  ลงในช่อง) </h5>
-                    <div class="fields">
+                    </div> <!------------------- End of drop out ------------------------>
+                    <h4 style="font-size:13px; color:grey;">3.2 สาเหตุที่ออกจากระบบการศึกษา / Reason of Dropping Out </h4>
+                    <div class="fields"><!------------------- Reason of drop out ------------------------>
                     
                       <div class="input-field">
                             <label>1.ระดับการเรียนล่าสุด/ The last education level student studied</label>
@@ -2407,9 +2306,10 @@ table, td, th, tr {
                             <input type="text" placeholder="if you choose other, please specify" class="form__289specify" name="289specify">
                       </div>
  
-                    </div>
-                    <h5 style="font-size:13px; color:grey;">3.3 หากนักเรียนกำลังทำงานอยู่หลังจากที่หลุดออกจากระบบศึกษาโปรดระบุข้อมูลดังต่อไปนี้ /If student is working after dropping out from school, please provide following information. </h5>
-                    <div class="fields">
+                    </div> <!------------------- End of Reason of Drop out ------------------------>
+                    
+                    <h4 style="font-size:13px; color:grey;">3.3 หากนักเรียนกำลังทำงานอยู่หลังจากที่หลุดออกจากระบบศึกษาโปรดระบุข้อมูลดังต่อไปนี้ /If student is working after dropping out from school, please provide following information. </h4>
+                    <div class="fields"><!------------------- work after drop out ------------------------>
                     
                       <div class="input-field">
                             <label>1.ประเภทงานที่ทำ / Type of work </label>
@@ -2436,10 +2336,10 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__295income" name="295income">
                       </div>
                       
+                    </div> <!------------------- End of Work after drop out ------------------------>
                         
-                    </div> 
-                    <h5 style="font-size:13px; color:grey;">3.4 หากนักเรียนออกจากสถานศึกษาเพราะเหตุผลของการแต่งงาน โปรดระบุข้อมูลดังต่อไปนี้/ If student dropped out for the marriage, please provide the following information. </h5>
-                    <div class="fields">
+                    <h4 style="font-size:13px; color:grey;">3.4 หากนักเรียนออกจากสถานศึกษาเพราะเหตุผลของการแต่งงาน โปรดระบุข้อมูลดังต่อไปนี้/ If student dropped out for the marriage, please provide the following information. </h4>
+                    <div class="fields"><!------------------- marriage after drop out ------------------------>
                     
                       <div class="input-field">
                             <label>1.อายุของนักเรียนขณะที่แต่งงาน /The age of student upon marriage:</label>
@@ -2467,9 +2367,10 @@ table, td, th, tr {
                       </div>
                       
                         
-                    </div> 
-                    <h5 style="font-size:13px; color:grey;">3.5 รูปถ่าย นักเรียน ผู้ปกครอง และชุมชน/ Photo of student, guardian and community</h5>
-                    <div class="fields">
+                    </div> <!------------------- Marriage after drop out ------------------------>
+                        
+                    <h4 style="font-size:13px; color:grey;">3.5 รูปถ่าย นักเรียน ผู้ปกครอง และชุมชน/ Photo of student, guardian and community</h4>
+                    <div class="fields"><!------------------- Photo Section ------------------------>
                     
                     <div class="input-field">
                         <label>นักเรียน/Student</label>
@@ -2504,8 +2405,8 @@ table, td, th, tr {
                     </div>
                       
                         
-                    </div>
-                
+                    </div><!------------------- End of Photo Section ------------------------>
+                </div>
                 <!-- ==================================================================================== -->
                 <!------------------------------ End of Info in Thailand--------------------------------->
                 <br>
@@ -2515,18 +2416,18 @@ table, td, th, tr {
                 
                         
                </div> 
+            <! ==================================================================================================>
+            <!---------------------------------- End of Form ----------------------------------------------------->
                     
                     <!----------- Submit Button ---------->
                     <button type="submit" class="nextBtn">
                         <span class="btnText">Submit</span>
                     </button>
                     <!------------------------------------->
-                <div>    
-                
-            </div>
+
             
         </form>
     </div>
-    <!--<script src="script.js"></script>-->
+ 
 </body>
 </html>
