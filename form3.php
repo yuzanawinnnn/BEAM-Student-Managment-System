@@ -114,6 +114,12 @@ form .fields .input-field{
     color: #2e2e2e;
     padding: 0 6px;
 }
+#rerad{
+    font-size: 12px;
+    font-weight: 50;
+    color: #2e2e2e;
+    padding:1 6px;
+}
 .input-field input, select{
     outline: none;
     font-size: 14px;
@@ -206,6 +212,10 @@ table, td, th, tr {
     height: 42px;
     margin: 8px 0;
         }
+ .required:after {
+    content:" *";
+    color: red;
+  }
  
 </style>
 </head>
@@ -213,131 +223,140 @@ table, td, th, tr {
 <body>
     <div class="container">
         <header>Student Biography</header>
-        
+        <h2 style="font-size:20px; color:black; text-align:center;">ประวัติของนักเรียน </h2>
+        <br>
         <form action="_actions/createstudent.php" method="post">
             <div class="form.first">
                 
                 <!----------------------------------------Personal Information -------------------------------->
                 <!--=========================================================================================-->
                 <div class="details personal">  
-                <h3 style="font-size:20px; color:grey;">Personal Information</h3>
+                <h3 style="font-size:20px; color:grey;">ข้อมูลประเทศต้นทาง / Personal Information</h3>
+                
                        
                     <div class="fields">
                          <div class="input-field">
-                         <label>ชือ/Name</label>
+                         <label class="required">ชือ/Name</label>
                          <input type="text" placeholder="Enter your name" class="form__1name" name="Name" required>
                          </div>
                            
                          <div class="input-field">
-                         <label>Surname</label>
+                         <label class="required">นามสกุล/Surname</label>
                          <input type="text" placeholder="Enter your surname" class="form__2surname" name="Surame" required>
                          </div>
                            
                         <div class="input-field">
-                            <label>Blood Group</label>
+                            <label class="required">กรุ๊ปเลือด/Blood Group</label>
                             <select class="form__3blgp" name="BloodGp" required>
                                 <option disabled selected>Select Blood Group</option>
-                                <option>A</option>
-                                <option>B</option>
-                                <option>O</option>
-                                <option>AB</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="O">O</option>
+                                <option value="AB">AB</option>
                             </select>
                         </div>
                         <div class="input-field">
-                            <label>วนัเกิด/Date of Birth</label>
+                            <label class="required">วนัเกิด/Date of Birth</label>
                             <input type="date" placeholder="Enter birth date" class="form__4dob" name="DOB" required>
                         </div>        
                         <div class="input-field">
-                            <label>อายุ/Age</label>
+                            <label class="required">อายุ/Age</label>
                             <input type="number" placeholder="Enter your age" min="1" max="100" name="Age" class="form__5age" required>
                         </div>
                         <div class="input-field">
-                            <label>Gender</label>
+                            <label class="required">เพศ/Gender</label>
                             <select class="form__6gender" name="Gender" required>
                                 <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefers not to say">Prefers not to say</option>
                             </select>
                         </div>
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__6religion" name="Religion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__7nationality" name="Nationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>    
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__8ethnicity" name="Ethnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
                         <div class="input-field">
-                            <label>Status</label>
-                            <input type="text" placeholder="Status" class="form__9status" name="Status" required>
+                            <label class="required">สถานภาพ/Martial Status</label>
+                            <select id="marital_status" class="form__9status" name="marital_status" required>
+                                   <option disabled select>Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
                         </div>
                            
                         <div class="input-field">
-                            <label>อาชีพ/Occupation</label>
+                            <label class="required">อาชีพ/Occupation</label>
                             <input type="text" placeholder="Occupation" class="form__10occupation" name="Occupation" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Contact</label>
+                            <label class="required">ที่อยู่ที่สามารถติดต่อได้/Contact</label>
                             <input type="text" placeholder="Contact" class="form__11contact" name="Contact" required>
                         </div>
                         
                          <div class="input-field">
-                            <label>Phone Number</label>
+                            <label class="required">Phone Number</label>
                             <input type="tel" class="form__12phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                           </div>
                         
                            <div class="input-field">
-                            <label>Email</label>
+                            <label class="required">เบอร์โทรศัพท์/Email</label>
                             <input type="email" placeholder="Email" class="form__13email" name="email" required>
                           </div>
                            
                            <div class="input-field">
                             <label>Line/Facebook</label>
-                            <input type="text" placeholder="Line/Facebook" class="form__14linefb" name="linefb" required>
+                            <input type="text" placeholder="Line/Facebook" class="form__14linefb" name="linefb">
                           </div>
                            
                            <div class="input-field">
-                            <label>Profile Photo</label>
+                            <label class="required">รูปถ่าย(ไม่เกิน 6 เดือน)/ Profile Photo</label>
                             <input type="file" class="form__15control" name="photo" required>
-                            <button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">Upload Photo</button>
+                            <!--<button class="btn btn-primary" style="width:80px; height: 35px;font-size:10px;">Upload Photo</button> -->
                           </div>
                            
                          
@@ -351,76 +370,82 @@ table, td, th, tr {
                 <!-----------------------------------------Parent Information --------------------------------->
                 <!--=========================================================================================-->
                 <div class="details personal">  
-                    <h3 style="font-size:20px; color:grey;">Parent Information</h3>
+                    <h3 style="font-size:20px; color:grey;">ข้อมูลผู้ปกครอง / Parent Information</h3>
                        
                     <div class="fields"><!----------------- FATHER ------------------->
                         <div class="input-field">
-                            <label>Father</label>
+                            <label class="required">บิดา/Father</label>
                             <input type="text" placeholder="Father's Name" class="form__16dadname" name="DadName" required>
                         </div>
                         <div class="input-field">
-                            <label>อายุ/Age</label>
+                            <label class="required">อายุ/Age</label>
                             <input type="number" placeholder="Father's Age" min="1" max="100" name="DadAge" class="form__17dadage" required>
                         </div>
-                           
-                         <div class="input-field">
-                            <label>Status</label>
-                            <input type="text" placeholder="Father's Status" class="form__18status" name="DadStatus" required>
+                        
+                        <div class="input-field">
+                            <label class="required">สถานภาพ/Martial Status</label>
+                            <select class="form__18status" name="DadStatus" required>
+                                   <option value="">Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
                         </div>
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__19dadreligion" name="DadReligion" required>
-                                <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                               <option disabled selected>Select Religion</option>               
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__20dadnationality" name="DadNationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>   
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__21dadethnicity" name="DadEthnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
                         <div class="input-field">
-                            <label>อาชีพ/Occupation</label>
+                            <label class="required">อาชีพ/Occupation</label>
                             <input type="text" placeholder="Father's Occupation" class="form__22dadoccupation" name="DadOccupation" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Annual Average Income</label>
+                            <label class="required">รายได้เฉลี่ยต่อปี/Annual Average Income</label>
                             <input type="text" placeholder="Annual Average Income" class="form__23annualincome" name="annualincome" required>
                         </div>
-                        
-                        <!----- HIDDEN DIV -------->
+                         <!----- HIDDEN DIV -------->
                 <div class="input-field"><label></label><input type="text" hidden></div>  
                          <!----- HIDDEN DIV --------> 
                            
@@ -428,70 +453,76 @@ table, td, th, tr {
                     
                     <div class="fields"><!----------------- MOTHER ------------------->
                         <div class="input-field">
-                            <label>Mother</label>
+                            <label class="required">Mother</label>
                             <input type="text" placeholder="Mother's Name" class="form__24dadname" name="MomName" required>
                          </div>
                         <div class="input-field">
-                            <label>อายุ/Age</label>
+                            <label class="required">อายุ/Age</label>
                             <input type="number" placeholder="Mother's Age" min="1" max="100" name="MomAge" class="form__25momage" required>
                         </div>
                            
                          <div class="input-field">
-                            <label>Status</label>
-                            <input type="text" placeholder="Mother's Status" class="form__26momstatus" name="MomStatus" required>
+                            <label class="required">สถานภาพ/Martial Status</label>
+                             <select class="form__26momstatus" name="MomStatus" required>
+                                   <option value="">Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
                         </div>
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__27momreligion" name="MomReligion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__28momnationality" name="MomNationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>    
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__29momethnicity" name="MomEthnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
-                           
-                       
+                         
                            
                         <div class="input-field">
-                            <label>อาชีพ/Occupation</label>
+                            <label class="required">อาชีพ/Occupation</label>
                             <input type="text" placeholder="Mother's Occupation" class="form__30momoccupation" name="MomOccupation" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Annual Average Income</label>
+                            <label class="required">รายได้เฉลี่ยต่อปี/Annual Average Income</label>
                             <input type="text" placeholder="Annual Average Income" class="form__31momannualincome" name="momannualincome" required>
                         </div>
                            
@@ -502,122 +533,116 @@ table, td, th, tr {
                         <!----------------------END OF MOTHER------------------------>
                         
                         <div class="input-field">
-                            <label>Guardian</label>
+                            <label class="required">ผู้ปกครอง/Guardian</label>
                             <input type="text" placeholder="Guardian's Name" class="form__31Guarname" name="GuarName" required>
                          </div>
                         <div class="input-field">
-                            <label>อายุ/Age</label>
+                            <label class="required">อายุ/Age</label>
                             <input type="number" placeholder="Guardian's Age" min="1" max="100" name="GuarAge" class="form__32Guarage" required>
                         </div>
                            
                          <div class="input-field">
-                            <label>Status</label>
-                            <input type="text" placeholder="Guardian's Status" class="form__33Guarstatus" name="GuarStatus" required>
+                            <label class="required">สถานภาพ/Martial Status</label>
+                            <select class="form__33Guarstatus" name="GuarStatus" required>
+                                   <option value="">Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
                         </div>
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__34Guarreligion" name="GuarReligion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__35Guarnationality" name="GuarNationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>   
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__36Guarethnicity" name="GuarEthnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
-                       
                            
                         <div class="input-field">
-                            <label>อาชีพ/Occupation</label>
+                            <label class="required">อาชีพ/Occupation</label>
                             <input type="text" placeholder="Guardian's Occupation" class="form__37Guaroccupation" name="GuarOccupation" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Annual Average Income</label>
+                            <label class="required">รายได้เฉลี่ยต่อปี/Annual Average Income</label>
                             <input type="text" placeholder="Annual Average Income" class="form__38Guarannualincome" name="Guarannualincome" required>
                         </div>
-                        
-                          <!----- HIDDEN DIV -------->
-                <div class="input-field"><label></label><input type="text" hidden></div>  
-                         <!----- HIDDEN DIV --------> 
-                           
-                           
-                        <div class="input-field1">
+
+                        <div class="input-field">
                             <fieldset style="padding:0 2px;">
-                                <legend style="font-size: 12px;">Relationship</legend>
+                                <legend style="font-size: 12px;" class="required">ความเกี่ยวข้อง/ Relationship with student</legend>
                             <input type="radio" name="relation" id="Father" value="Father"/>
-                            <label for="Father" style="">Father</label>
+                            <label for="Father" id="rerad">Father</label>
                             <input type="radio" name="relation" id="Mother" value="Mother"/>
-                            <label for="Mother">Mother</label>
+                            <label for="Mother" id="rerad">Mother</label>
                             <input type="radio" name="relation" id="Other" value="Other"/>
-                            <label for="Other">Other</label>
-                                </fieldset>
+                            <label for="Other" id="rerad">Other</label>
+                            </fieldset>
                         </div>
                         
                         <div class="input-field">
-                            <label>If you choose other, please specify</label>
-                            <input type="text" placeholder="Specify Other" class="form__40Other" name="RelationOther" required>
+                            <label class="required">อื่นๆระบุ/ other, please specify</label>
+                            <input type="text" placeholder="Specify Other" class="form__40Other" name="RelationOther">
                         </div>
                            
-                          <!----- HIDDEN DIV -------->
-                <div class="input-field"><label></label><input type="text" hidden></div>  
-                         <!----- HIDDEN DIV --------> 
-                           
                         <div class="input-field">
-                            <label>Address in Country of Origin</label>
+                            <label class="required">ที่อยู่ในประเทศต้นทาง/Address in Country of Origin</label>
                             <input type="text" placeholder="Original Address" class="form__41mmadd" name="mmadd" required>
                         </div>
                         <div class="input-field">
-                            <label>Current Address</label>
+                            <label class="required">ที่อยู่ปัจจุบัน/Current Address</label>
                             <input type="text" placeholder="Current Address" class="form__42curadd" name="Curadd" required>
                         </div>
                            
-                            <!----- HIDDEN DIV -------->
-                <div class="input-field"><label></label><input type="text" hidden></div>  
-                         <!----- HIDDEN DIV --------> 
-                           
+
                         <div class="input-field">
-                            <label>Place of Information Collecting</label>
-                            <input type="text" placeholder="Place" class="form__43placeinfo" name="placeinfo" required>
+                            <label style="font-weight:bold; color:#192A53;" class="required">สถานที่เก็บข้อมูล/ Place of Data Collecting</label>
+                            <input type="text" placeholder="Location" class="form__43placeinfo" name="placeinfo" required>
                         </div>
                         <div class="input-field">
-                            <label>Data Collecting Date</label>
+                            <label style="font-weight:bold; color:#192A53;" class="required">วันที่ / Date</label>
                             <input type="date" class="form__44infodate" name="InfoDate" required>
                         </div> 
                         <div class="input-field">
-                            <label>Data Collecting Person</label>
+                            <label style="font-weight:bold; color:#192A53;" class="required">ผู้เก็บข้อมูล/Data Collecting Person</label>
                             <input type="text" placeholder="Name" class="form__45collector" name="Collector" required>
                         </div> 
                            
@@ -631,73 +656,73 @@ table, td, th, tr {
                 <!---------------------------------Information in Place of Birth------------------------------->
                 <!--=========================================================================================-->
                 <div class="details personal">  
-                    <h3 style="font-size:20px; color:grey;">Information in Place of Birth</h3>
-                    <h4 style="font-size:13px; color:grey;">1.1 Information at Birth</h4>
+                    <h3 style="font-size:20px; color:grey;">ข้อมูลประเทศต้นทาง  / Information in Place of Birth</h3>
+                    <h4 style="font-size:13px; color:grey;">1.1 ข้อมูลตามกำเนิด /Information at Birth</h4>
                        <div class="fields"><!-----------------------Info at Birth ----------------------->
                          
                          <div class="input-field">
-                            <label>ชือ/Name</label>
-                            <input type="text" placeholder="Enter your name" class="form__46name" name="46Name" required>
+                            <label class="required">ชือ/Name</label>
+                            <input type="text" placeholder="Name" class="form__46name" name="46Name" required>
                          </div>
                            
                          <div class="input-field">
-                            <label>Nickname</label>
-                            <input type="text" placeholder="Enter your nickname" class="form__47nickname" name="47Nickame" required>
+                            <label class="required">ชื่อเล่น/Nickname</label>
+                            <input type="text" placeholder="Nickname" class="form__47nickname" name="47Nickame" required>
                          </div>
                         <div class="input-field">
-                            <label>วนัเกิด/Date of Birth</label>
-                            <input type="date" placeholder="Enter birth date" class="form__48dob" name="48DOB" required>
+                            <label class="required">วนัเกิด/Date of Birth</label>
+                            <input type="date"  class="form__48dob" name="48DOB" required>
                         </div>        
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__49religion" name="49Religion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__50nationality" name="50Nationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>    
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__51ethnicity" name="51Ethnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
                         <div class="input-field">
-                            <label>Number of Siblings</label>
-                            <input type="number" placeholder="Number of Siblings" min="1" max="100" name="siblings" class="form__52sib" required>
+                            <label class="required">จำนวนพี่น้อ/Number of Sibling(s)</label>
+                            <input type="number" placeholder="Number of Sibling(s)" min="1" max="100" name="siblings" class="form__52sib" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Address</label>
+                            <label class="required">ที่อยู่/Address</label>
                             <input type="text" placeholder="Address" class="form__52address" name="52address" required>
                         </div>
                            
@@ -708,72 +733,72 @@ table, td, th, tr {
                          
                   </div><!-----------------------End of Info at Birth ----------------------->
                   <br>
-                  <h4 style="font-size:13px; color:grey;">1.2 Information in Identitiy Card</h4>
+                  <h4 style="font-size:13px; color:grey;">1.2	ข้อมูลตามบัตรประจำตัวประชาชน/ Information in Identitiy Card</h4>
                   <div class="fields"><!-----------------------Info in Identity Card ----------------------->
                          
                          <div class="input-field">
-                            <label>ชือ/Name</label>
+                            <label class="required">ชือ/Name</label>
                             <input type="text" placeholder="Enter your name" class="form__53name" name="53Name" required>
                          </div>
                            
                          <div class="input-field">
-                            <label>Nickname</label>
+                            <label class="required">ชื่อเล่น/Nickname</label>
                             <input type="text" placeholder="Enter your nickname" class="form__54nickname" name="54Nickame" required>
                          </div>
                         <div class="input-field">
-                            <label>วนัเกิด/Date of Birth</label>
+                            <label class="required">วนัเกิด/Date of Birth</label>
                             <input type="date" placeholder="Enter birth date" class="form__55dob" name="55DOB" required>
                         </div>        
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__56religion" name="56Religion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__57nationality" name="57Nationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>  
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__58ethnicity" name="58Ethnicity" required>
-                                <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                 <option disabled selected>Select Ethnicity</option>
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
                         <div class="input-field">
-                            <label>Number of Siblings</label>
-                            <input type="number" placeholder="Number of Siblings" min="1" max="100" name="59siblings" class="form__59sib" required>
+                            <label class="required">จำนวนพี่น้อง/Number of Sibling(s)</label>
+                            <input type="number" placeholder="Number of Sibling(s)" min="1" max="100" name="59siblings" class="form__59sib" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Address</label>
+                            <label class="required">ที่อยู่/Address</label>
                             <input type="text" placeholder="Address" class="form__60address" name="60address" required>
                         </div>
                            
@@ -785,13 +810,13 @@ table, td, th, tr {
                   </div><!-----------------------End of Info in Identity card ----------------------->
                   <br>
                     
-                 <h4 style="font-size:13px; color:grey;">1.3 Information of Guardian</h4>
+                 <h4 style="font-size:13px; color:grey;">1.3 ข้อมูลผู้ปกครอง/ Information of Guardian</h4>
                  <div class="fields"><!-----------------------Info of Guardian ----------------------->
                            
                        
-                        <div class="input-field1">
+                        <div class="input-field">
                             <fieldset style="padding:0 2px;">
-                                <legend style="font-size: 12px;">Relationship</legend>
+                                <legend style="font-size: 12px;"  class="required">ความเกี่ยวข้อง / Relationship with Student</legend>
                             <input type="radio" name="61relation" id="61Father" value="Father"/>
                             <label for="Father" style="">Father</label>
                             <input type="radio" name="61relation" id="61Mother" value="Mother"/>
@@ -801,92 +826,99 @@ table, td, th, tr {
                                 </fieldset>
                         </div>
                          <div class="input-field">
-                            <label>If you choose other, please specify</label>
+                            <label class="required">อื่นๆระบุ / Specify "Other"</label>
                             <input type="text" placeholder="Specify Other" class="form__62Other" name="62RelationOther" required>
                         </div>
                          
                          <div class="input-field">
-                            <label>ชือ/Name</label>
-                            <input type="text" placeholder="Enter Guardian's name" class="form__63name" name="63Name" required>
+                            <label class="required">ชือ/Name</label>
+                            <input type="text" placeholder="Guardian's name" class="form__63name" name="63Name" required>
                          </div>
                            
                         <div class="input-field">
-                            <label>อายุ/Age</label>
-                            <input type="number" placeholder="Age" min="1" max="100" name="64GuarAge" class="form__64Guarage" required>
+                            <label class="required">อายุ/Age</label>
+                            <input type="number" placeholder="Guardian's Age" min="1" max="100" name="64GuarAge" class="form__64Guarage" required>
                         </div>   
                            
                         <div class="input-field">
-                            <label>Martial Status</label>
-                            <input type="text" placeholder="Martial Status" class="form__65status" name="65Status" required>
+                            <label class="required">สถานภาพ/Martial Status</label>
+                            <select class="form__65status" name="65Status" required>
+                                   <option value="">Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
                         </div>
                            
                        <div class="input-field">
-                            <label>ศาสนา/Religion</label>
+                            <label class="required">ศาสนา/Religion</label>
                             <select class="form__66religion" name="66Religion" required>
                                 <option disabled selected>Select Religion</option>               
-                                <option>Buddhist</option> 
-                                <option>Christian</option>  
-                                <option>Muslim</option>  
-                                <option>Brahmin-Hundu</option>  
-                                <option>Sikh</option>
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
                             </select>
                         </div>
                    
                         <div class="input-field">
-                            <label>สัญชาติ/Nationality</label>
+                            <label class="required">สัญชาติ/Nationality</label>
                             <select class="form__67nationality" name="67Nationality" required>
                                 <option disabled selected>Select Nationality</option>
-                                <option>မြန်မာ(พม่า)</option>  
-                                <option>ထိုင်း(ไทย)</option>    
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>    
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>เช6อชาติ/Ethnicity</label>
+                            <label class="required">เช6อชาติ/Ethnicity</label>
                             <select class="form__68ethnicity" name="68Ethnicity" required>
                                 <option disabled selected>Select Ethnicity</option>
-                                <option>ကချင် (คะฉิ่น)</option>  
-                                <option>ကယား (คายาห์)</option>  
-                                <option>ကရင် (กะเหรี่ยง)</option>  
-                                <option>ချင်း (ฉิ่น)</option>  
-                                <option>မွန် (มอญ)</option> 
-                                <option>ဗမာ (พม่า)</option>  
-                                <option>ရခိုင် (ยะข่าย)</option>  
-                                <option>ရှမ်း (ฉาน/ไทยใหญ่)</option>  
-                                <option>ထားဝယ် (ทวาย/ชาวทวาย)</option>  
-                                <option>ဂေါ်ရခါး (กูรข่า)</option>  
-                                <option>နေပါလီ (เนปาล)</option>  
-                                <option>ပအို့ဝ် (ปะโอ)</option>  
-                                <option>အင်းသား (อิงตา)</option>  
-                                <option>Other:</option> 
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
                             </select>
                         </div>
                            
                                               
                         <div class="input-field">
-                            <label>อาชีพ/Occupation</label>
+                            <label class="required">อาชีพ/Occupation</label>
                             <input type="text" placeholder="Guardian's Occupation" class="form__69Guaroccupation" name="69GuarOccupation" required>
                         </div>
                         
                         <div class="input-field">
-                            <label>Annual Average Income</label>
+                            <label class="required">รายได้เฉลี่ยต่อปี/Annual Average Income</label>
                             <input type="text" placeholder="Annual Average Income" class="form__70Guarannualincome" name="70Guarannualincome" required>
                         </div>
                         
                          <div class="input-field">
-                            <label>Address at Birth</label>
+                            <label class="required">ภูมิลำเนาตามกำเนิด/Address at Birth</label>
                             <input type="text" placeholder="Address at Birth" class="form__71add" name="71add" required>
                         </div>
                            
                          <div class="input-field">
-                            <label>ความเกี่ยวข้อง </label>
+                            <label class="required">ความเกี่ยวข้อง </label>
                             <input type="text" placeholder="ความเกี่ยวข้อง " class="form__72temp" name="72temp" required>
                         </div>
                     </div><!---------------------End of Info of Guardian ------------------>
                     <br>
                                 
                                 
-                    <h4 style="font-size:13px; color:grey;">1.4 Number of Siblings (Optional)</h4>
+                    <h4 style="font-size:13px; color:grey;">1.4 จำนวนพี่น้อง/ Number of Siblings (of Student)</h4>
                     <h5 style="font-size:13px; color:grey;">Sibling I</h5>
                     
                     <div class="fields"><!-----------------------Table of sibling ----------------------->
@@ -896,18 +928,18 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__73sibname" name="73sibName">
                       </div>
                       <div class="input-field">
-                            <label>Gender</label>
+                            <label>เพศ/Gender</label>
                             <select class="form__74gender" name="74Gender" >
-                                <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option disabled selected>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>Age</label>
+                            <label>อายุ/Age</label>
                             <input type="number" placeholder="Age" min="1" max="100" name="75age" class="form__75age">
                         </div>
                            
@@ -917,18 +949,27 @@ table, td, th, tr {
                         </div>
                         
                         <div class="input-field">
-                            <label>Address</label>
+                            <label>การศึกษา/Education</label>
+                            <input type="text" placeholder="Education" class="form__305edu" name="305edu">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>ที่อยู่/Address (City Only)</label>
                             <input type="text" placeholder="Contact" class="form__77address" name="77address" >
                         </div>
                 
                         <div class="input-field">
-                            <label>Remark</label>
-                            <input type="text" placeholder="Contact" class="form__78remark" name="78Remark" required>
+                            <label>หมายเหตุ/Remark</label>
+                            <input type="text" placeholder="Contact" class="form__78remark" name="78Remark">
                         </div>
                         <div class="input-field">
-                            <label>Location</label>
-                            <input type="text" placeholder="Location" class="form__79loc" name="79loc" required>
+                            <label>สถานที่ตั้ง/Location</label>
+                            <input type="text" placeholder="Location" class="form__79loc" name="79loc">
                         </div>
+                        
+                        <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                    
                         </div>
                       
@@ -941,18 +982,18 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__80sibname" name="80sibName">
                       </div>
                       <div class="input-field">
-                            <label>Gender</label>
+                            <label>เพศ/Gender</label>
                             <select class="form__81gender" name="81Gender" >
-                                <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option disabled selected>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>Age</label>
+                            <label>อายุ/Age</label>
                             <input type="number" placeholder="Age" min="1" max="100" name="82age" class="form__82age">
                         </div>
                            
@@ -961,20 +1002,28 @@ table, td, th, tr {
                             <input type="text" placeholder="Occupation" class="form__83occupation" name="83Occupation">
                         </div>
                         
+                       <div class="input-field">
+                            <label>การศึกษา/Education</label>
+                            <input type="text" placeholder="Education" class="form__306edu" name="306edu">
+                        </div>
+                        
                         <div class="input-field">
-                            <label>Address</label>
-                            <input type="text" placeholder="Contact" class="form__84address" name="84address" >
+                            <label>ที่อยู่/Address</label>
+                            <input type="text" placeholder="Address" class="form__84address" name="84address" >
                         </div>
                 
                         <div class="input-field">
-                            <label>Remark</label>
-                            <input type="text" placeholder="Contact" class="form__85remark" name="85Remark" >
+                            <label>หมายเหตุ/Remark</label>
+                            <input type="text" placeholder="Remark" class="form__85remark" name="85Remark" >
                         </div>
                         <div class="input-field">
-                            <label>Location</label>
+                            <label>สถานที่ตั้ง/Location</label>
                             <input type="text" placeholder="Location" class="form__86loc" name="86loc" >
                         </div>
-                       
+                       <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
+                        
                     </div>
                     <h5 style="font-size:13px; color:grey;">Sibling III</h5>
                     <div class="fields">
@@ -984,18 +1033,18 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__87sibname" name="87sibName">
                       </div>
                       <div class="input-field">
-                            <label>Gender</label>
+                            <label>เพศ/Gender</label>
                             <select class="form__88gender" name="88Gender" >
-                                <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option disabled selected>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>Age</label>
+                            <label>อายุ/Age</label>
                             <input type="number" placeholder="Age" min="1" max="100" name="89age" class="form__89age">
                         </div>
                            
@@ -1005,18 +1054,26 @@ table, td, th, tr {
                         </div>
                         
                         <div class="input-field">
-                            <label>Address</label>
-                            <input type="text" placeholder="Contact" class="form__91address" name="91address" >
+                            <label>การศึกษา/Education</label>
+                            <input type="text" placeholder="Education" class="form__307edu" name="307edu">
+                        </div>
+                        
+                        <div class="input-field">
+                            <label>ที่อยู่/Address</label>
+                            <input type="text" placeholder="Address" class="form__91address" name="91address" >
                         </div>
                 
                         <div class="input-field">
-                            <label>Remark</label>
-                            <input type="text" placeholder="Contact" class="form__92remark" name="92Remark" >
+                            <label>หมายเหตุ/Remark</label>
+                            <input type="text" placeholder="Remark" class="form__92remark" name="92Remark" >
                         </div>
                         <div class="input-field">
-                            <label>Location</label>
+                            <label>สถานที่ตั้ง/Location</label>
                             <input type="text" placeholder="Location" class="form__93loc" name="93loc" >
                         </div>
+                        <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                        
                     </div>
                   <h5 style="font-size:13px; color:grey;">Sibling IV</h5>
@@ -1027,18 +1084,18 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__94sibname" name="94sibName">
                       </div>
                       <div class="input-field">
-                            <label>Gender</label>
+                            <label>เพศ/Gender</label>
                             <select class="form__95gender" name="95Gender" >
                                 <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>Age</label>
+                            <label>อายุ/Age</label>
                             <input type="number" placeholder="Age" min="1" max="100" name="96age" class="form__96age">
                         </div>
                            
@@ -1047,20 +1104,27 @@ table, td, th, tr {
                             <input type="text" placeholder="Occupation" class="form__97occupation" name="97Occupation">
                         </div>
                         
+                                                <div class="input-field">
+                            <label>การศึกษา/Education</label>
+                            <input type="text" placeholder="Education" class="form__308edu" name="308edu">
+                        </div>
+                        
                         <div class="input-field">
-                            <label>Address</label>
-                            <input type="text" placeholder="Contact" class="form__98address" name="98address" >
+                            <label>ที่อยู่/Address</label>
+                            <input type="text" placeholder="Address" class="form__98address" name="98address" >
                         </div>
                 
                         <div class="input-field">
-                            <label>Remark</label>
-                            <input type="text" placeholder="Contact" class="form__99remark" name="99Remark" >
+                            <label>หมายเหตุ/Remark</label>
+                            <input type="text" placeholder="Remark" class="form__99remark" name="99Remark" >
                         </div>
                         <div class="input-field">
-                            <label>Location</label>
+                            <label>สถานที่ตั้ง/Location</label>
                             <input type="text" placeholder="Location" class="form__100loc" name="100loc" >
                         </div>
-                       
+                       <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                     </div>
                     
                     <h5 style="font-size:13px; color:grey;">Sibling V</h5>
@@ -1071,18 +1135,18 @@ table, td, th, tr {
                             <input type="text" placeholder="Sibling Name" class="form__101sibname" name="94sibName">
                       </div>
                       <div class="input-field">
-                            <label>Gender</label>
+                            <label>เพศ/Gender</label>
                             <select class="form__102gender" name="102Gender" >
                                 <option disabled selected>Select gender</option>
-                                <option>Male</option>
-                                <option>Female</option>
-                                <option>Others</option>
-                                <option>Prefers not to say</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
                             </select>
                         </div>
                         
                         <div class="input-field">
-                            <label>Age</label>
+                            <label>อายุ/Age</label>
                             <input type="number" placeholder="Age" min="1" max="100" name="103age" class="form__103age">
                         </div>
                            
@@ -1090,21 +1154,28 @@ table, td, th, tr {
                             <label>อาชีพ/Occupation</label>
                             <input type="text" placeholder="Occupation" class="form__104occupation" name="104Occupation">
                         </div>
+                                                <div class="input-field">
+                            <label>การศึกษา/Education</label>
+                            <input type="text" placeholder="Education" class="form__309edu" name="309edu">
+                        </div>
+                       
                         
                         <div class="input-field">
-                            <label>Address</label>
-                            <input type="text" placeholder="Contact" class="form__105address" name="105address" >
+                            <label>ที่อยู่/Address</label>
+                            <input type="text" placeholder="Address" class="form__105address" name="105address" >
                         </div>
                 
                         <div class="input-field">
-                            <label>Remark</label>
-                            <input type="text" placeholder="Contact" class="form__106remark" name="106Remark" >
+                            <label>หมายเหตุ/Remark</label>
+                            <input type="text" placeholder="Remark" class="form__106remark" name="106Remark" >
                         </div>
                         <div class="input-field">
-                            <label>Location</label>
+                            <label>สถานที่ตั้ง/Location</label>
                             <input type="text" placeholder="Location" class="form__107loc" name="107loc" >
                         </div>
-                       
+                        <!----- HIDDEN DIV -------->
+                <div class="input-field"><label></label><input type="text" hidden></div>  
+                         <!----- HIDDEN DIV --------> 
                     </div>
                
                   </div> <!-------------------- End of Sibling Table ---------------------->
