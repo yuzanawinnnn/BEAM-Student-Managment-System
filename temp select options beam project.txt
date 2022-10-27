@@ -1,0 +1,59 @@
+             สถานภาพ/Martial Status             <select class="form__18status" name="DadStatus" required>
+                                   <option value="">Select Marital Status</option>
+                                   <option value="Single">Single</option>
+                                   <option value="Married">Married</option>
+                                   <option value="Widowed">Widowed</option>
+                                   <option value="Separated">Separated</option>
+                                   <option value="Divorced">Divorced</option>
+                            </select>
+
+
+                            <label class="required">ศาสนา/Religion</label>
+                            <select class="form__6religion" name="Religion" required>
+                                <option disabled selected>Select Religion</option>               
+                                <option value="Buddhist">Buddhist</option> 
+                                <option value="Christian">Christian</option>  
+                                <option value="Muslim">Muslim</option>  
+                                <option value="Brahmin-Hindu">Brahmin-Hindu</option>  
+                                <option value="Sikh">Sikh</option>
+                            </select>
+                        </div>
+                   
+                        <div class="input-field">
+                            <label class="required">สัญชาติ/Nationality</label>
+                            <select class="form__7nationality" name="Nationality" required>
+                                <option disabled selected>Select Nationality</option>
+                                <option value="Myanmar">Myanmar(พม่า)</option>  
+                                <option value="Thai">Thai(ไทย)</option>    
+                            </select>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label class="required">เช6อชาติ/Ethnicity</label>
+                            <select class="form__8ethnicity" name="Ethnicity" required>
+                                <option disabled selected>Select Ethnicity</option>
+                                <option value="Kachin">Kachin (คะฉิ่น)</option>  
+                                <option value="Kayah">Kayah (คายาห์)</option>  
+                                <option value="Kayin">Kayin (กะเหรี่ยง)</option>  
+                                <option value="Chin">Chin (ฉิ่น)</option>  
+                                <option value="Mon">Mon (มอญ)</option> 
+                                <option value="Bamar">Bamar (พม่า)</option>  
+                                <option value="Rakhine">Rakhine (ยะข่าย)</option>  
+                                <option value="Shan">Shan (ฉาน/ไทยใหญ่)</option>  
+                                <option value="Dawei">Dawei(ทวาย/ชาวทวาย)</option>  
+                                <option value="Gorkha">Gorkha(กูรข่า)</option>  
+                                <option value="Nepali">Nepali(เนปาล)</option>  
+                                <option value="Pa-Oh">Pa-Oh(ปะโอ)</option>  
+                                <option value="">အင်းသား (อิงตา)</option>  
+                                <option value="Other">Other</option> 
+                            </select>
+                        </div>
+                           
+     
+<select class="form__74gender" name="74Gender" >
+                                <option disabled selected>Select gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Others">Others</option>
+                                <option value="Prefer not to say">Prefer not to say</option>
+                            </select>                   
