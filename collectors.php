@@ -18,7 +18,7 @@ $auth = Auth::check();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAM EDUCATION</title>
+    <title>COLLECTORS TABLE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">      
     <link rel="stylesheet" href="css/style.css">
@@ -49,7 +49,7 @@ $auth = Auth::check();
 </style>
 </head>
 <body style="overflow: hidden;">
-    <div class="container-fluid" > <!-- Outer DIV -->
+    <div> <!-- Outer DIV -->
         <div class="row g-0">     <!-- Inner DIV -->
             
             <!---- nav is Nav bar with 2 cols size ---->
@@ -81,16 +81,16 @@ $auth = Auth::check();
                     <i class="fas fa-users"></i> 
                     <span class="d-none d-lg-inline">COLLECTORS</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="statistics.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-chart-line"></i>
                     <span class="d-none d-lg-inline">STATISTICS</span>
                 </a>
                 
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="admin.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">ROLES</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="settings.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">SETTINGS</span>
                 </a>
@@ -157,13 +157,13 @@ $auth = Auth::check();
      </div>
       <div style="float: right; display: flex; padding-bottom: 50px">
                     <div class="add_btn_section">
-                        <a href="register.php" class="btn btn-outline-primary" style="float:left; margin-left:20px; margin-right:10px; font-family: Cambria;">Add New Collectors</a>
+                        <a href="register_collectors.php" class="btn btn-outline-primary" style="float:left; margin-left:20px; margin-right:10px; font-family: Cambria;">Add New Collectors</a>
                         </div>
                     <div class="modify_btn_section"> 
                         <!--<a href="register.php" class="btn btn-warning" style="float:left; font-family: Cambria;" > Export</a>-->
                         <input type="button" id="btnExport" value="Export" class="export_btn"/>
                     </div>     
-          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <script type="text/javascript">
