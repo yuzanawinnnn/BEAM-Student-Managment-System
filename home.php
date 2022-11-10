@@ -152,10 +152,11 @@ body{height: 100%;}
                             ?>
                                <span class="text-success" style="padding:10px;">
                                     <i class="fas fa-chart-line" style="color:#999999;">
-                                    <p style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">TOTAL STUDENTS</p></i>
+                                    <a href="students.php" style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">TOTAL STUDENTS</a></i>
                                </span>
                            </div>
                         </div>
+                        
                     </div><!-- End of 1st card -->
                     
                     <!-- 2nd card -->
@@ -174,7 +175,7 @@ body{height: 100%;}
                             ?>
                                
                                     <i class="fas fa-chart-line" style="color:#999999;">
-                                    <p style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">MOVE OUT</p></i>
+                                    <a href="students.php" style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">MOVE OUT</a></i>
                                
                         </div>
                         </div>
@@ -197,7 +198,7 @@ body{height: 100%;}
                               
                                <span class="text-success">
                                     <i class="fas fa-chart-line" style="color:#999999;">
-                                    <p style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">NEW STUDENTS</p></i>
+                                    <a href="students.php" style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">NEW STUDENTS</a></i>
                                </span>
                          </div>
                         </div>
@@ -217,7 +218,7 @@ body{height: 100%;}
                             ?>
                                <span class="text-success">
                                     <i class="fas fa-chart-line" style="color:#999999;">
-                                    <p style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">COLLECTORS</p></i>
+                                    <a href="collectors.php" style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">COLLECTORS</a></i>
                                </span>
                            </div>
                         </div>
@@ -225,7 +226,13 @@ body{height: 100%;}
                     
                     
                 </div><!-- End of Status Block -->
+                <br><br><br>
                 
+                <div>
+                    <p style="font-family: 'georgia'; color:grey; font-size:18px; font-align:center; "><a href="https://beamedu.org/">BEAM</a> envisions people-oriented, peaceful, and developed communities in Myanmar and Thailand, which can be sustained by empowering local communities through comprehensive and continuous access to education.</p>
+                    <br>
+                    <img src="image/BEAMLogoPNG.png" alt="BEAM Education Foundation Logo" style="width:300px; margin-left:300px;">
+                </div>
             </div><!-- End of main Middle section -->
                 
                 
