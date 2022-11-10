@@ -10,7 +10,7 @@ include('security.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAM EDUCATION</title>
+    <title>HOME PAGE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">      
     <link rel="stylesheet" href="css/style.css">
@@ -62,15 +62,15 @@ body{height: 100%;}
                     <i class="fas fa-users"></i>
                     <span class="d-none d-lg-inline">COLLECTORS</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="statistics.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-chart-line"></i>
                     <span class="d-none d-lg-inline">STATISTICS</span>
                 </a>
-                <a href="admin" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="admin.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">ROLES</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="settings.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">SETTINGS</span>
                 </a>
@@ -175,7 +175,7 @@ body{height: 100%;}
                                
                                     <i class="fas fa-chart-line" style="color:#999999;">
                                     <p style="font-family: 'Mulish', sans-serif; margin-bottom: 10px; color:#999999">MOVE OUT</p></i>
-                               </span>
+                               
                         </div>
                         </div>
                     </div><!-- End of 2nd card -->
@@ -239,6 +239,6 @@ body{height: 100%;}
 <!--<footer class="container" style="height:20px;">
  <div class=" py-5 text-center text-muted">&copy; All rights reserved by BEAM & ONIE 2022</div>
 </footer>-->
-<!--<footer class="text-center py-2 text-muted">&copy; All rights reserved by BEAM & ONIE 2022 </footer>-->
+<footer class="text-center py-2 text-muted">&copy; All rights reserved by BEAM & ONIE 2022 </footer>
 </body>
 </html>
