@@ -16,7 +16,7 @@ $auth = Auth::check();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAM EDUCATION</title>
+    <title>STUDENTS TABLE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -90,7 +90,7 @@ $auth = Auth::check();
 </style>
 </head>
 <body>
-    <div class="container-fluid"> <!-- Outer DIV -->
+    <div> <!-- Outer DIV -->
         <div class="row g-0">     <!-- Inner DIV -->
             
             <!---- nav is Nav bar with 2 cols size ---->
@@ -123,19 +123,16 @@ $auth = Auth::check();
                     <i class="fas fa-users"></i>
                     <span class="d-none d-lg-inline">COLLECTORS</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="statistics.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-chart-line"></i>
                     <span class="d-none d-lg-inline">STATISTICS</span>
                 </a>
-                 <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
-                    <i class="fas fa-flag"></i>
-                    <span class="d-none d-lg-inline">REPORTS</span>
-                </a>
-                <a href="admin" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+
+                <a href="admin.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">ROLES</span>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
+                <a href="settings.php" class="list-group-item list-group-item-action menu_btn" style="font-family:cambria;">
                     <i class="fas fa-flag"></i>
                     <span class="d-none d-lg-inline">SETTINGS</span>
                 </a>
@@ -197,7 +194,7 @@ $auth = Auth::check();
         </div>
         <div style="float: right; display: flex; padding-bottom: 50px">
              <div class="add_btn_section">
-                    <a href="form1.php" class="btn btn-outline-primary" style="float:left; margin-left:20px; margin-right:10px; font-family:cambria; ">Add New Students</a>
+                    <a href="register_students.php" class="btn btn-outline-primary" style="float:left; margin-left:20px; margin-right:10px; font-family:cambria; ">Add New Students</a>
               </div>
               <div class="modify_btn_section"> 
                     <input type="button" id="btnExport" value="Export" class="export_btn"/>
@@ -261,7 +258,7 @@ $auth = Auth::check();
            <!-- END OF DELETE BUTTON -->
         
            <!----- VIEW BUTTON------->
-           <a href="#" class="btn btn-info">View</a>
+           <a href="studentprofile.php" class="btn btn-info">View</a>
            <!-- END OF VIEW BUTTON--->
            </td>
         </tr> 
